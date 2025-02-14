@@ -1,0 +1,1 @@
+$particle minecraft:dust{color:[$(r), $(g), $(b)],scale:1} ~ ~ ~ 0 100 0 0 200

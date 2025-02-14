@@ -1,3 +1,4 @@
+execute if data block ~ ~ ~ LootTable unless data block ~ ~ ~ Items run return fail
 function #bs.block:get_block
 data modify storage bs:in block.spawn_block_display merge from storage bs:out block
 data modify storage bs:in block.spawn_block_display merge value {extra_nbt:{Tags:[origins.phantom.intangible_block]}}

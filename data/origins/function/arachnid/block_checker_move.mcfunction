@@ -1,0 +1,2 @@
+execute as @a if score @s id = _check id store result storage minecraft:origins arachnid.rotation double 0.1 run scoreboard players get @s y_rotation
+function origins:arachnid/block_checker_teleport_macro with storage minecraft:origins arachnid
