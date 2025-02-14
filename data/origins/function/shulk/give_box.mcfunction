@@ -1,0 +1,1 @@
+give @s minecraft:shulker_box[minecraft:custom_data={shulk:1b},damage_resistant={types:"#origins:all"}]

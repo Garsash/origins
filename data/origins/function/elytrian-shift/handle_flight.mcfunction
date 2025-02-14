@@ -1,0 +1,1 @@
+execute unless entity @s[tag=in_flight] run function origins:elytrian-shift/flying

@@ -1,0 +1,1 @@
+execute as @a[team=Inchling] at @s rotated as @s run function origins:inchling/tick

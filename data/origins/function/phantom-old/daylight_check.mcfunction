@@ -1,0 +1,1 @@
+execute positioned over world_surface if entity @s[dy=180] run damage @s 1 on_fire

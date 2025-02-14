@@ -1,0 +1,1 @@
+execute as @a[team=Florian] at @s rotated as @s run function origins:florian/tick

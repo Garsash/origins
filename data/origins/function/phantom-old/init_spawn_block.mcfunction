@@ -1,0 +1,1 @@
+execute align xyz unless block ~ ~ ~ #enchantment_power_transmitter run function origins:phantom/spawn_block

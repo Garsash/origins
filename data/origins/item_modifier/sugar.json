@@ -1,0 +1,41 @@
+  [
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:food": {
+            "nutrition": 4,
+            "saturation": 1,
+            "can_always_eat": true
+          },
+          "minecraft:consumable": {
+            "consume_seconds":1.5,
+            "on_consume_effects": [
+              {
+                "type":"minecraft:apply_effects",
+                "effects":[
+                  {
+                    "id":"minecraft:speed",
+                    "amplifier":6,
+                    "duration":80
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "conditions": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": "minecraft:sugar"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+    

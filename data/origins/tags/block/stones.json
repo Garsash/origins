@@ -1,0 +1,11 @@
+{
+    "values": [
+      "#origins:ores",
+      "minecraft:cobblestone",
+      "minecraft:cobbled_deepslate",
+      "#minecraft:stone_ore_replaceables",
+      "#minecraft:deepslate_ore_replaceables",
+      "#minecraft:base_stone_nether",
+      "#minecraft:nether_carver_replaceables"
+    ]
+  }

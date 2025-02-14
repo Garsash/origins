@@ -1,0 +1,26 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "team": "Blazeborn",
+              "entity": "this",
+              "predicate": {
+                "team": "Blazeborn",
+                "flags": {
+                  "is_on_fire": true
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "origins:blazeborn/fire_bonus"
+    }
+  }
+  

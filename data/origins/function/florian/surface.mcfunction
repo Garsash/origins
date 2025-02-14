@@ -1,0 +1,1 @@
+execute positioned over world_surface as @s[dy=180] run return run function origins:florian/sunlight

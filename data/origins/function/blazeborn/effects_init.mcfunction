@@ -1,0 +1,1 @@
+schedule function origins:blazeborn/effects 1t replace

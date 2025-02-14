@@ -1,0 +1,1 @@
+execute align xyz if entity @e[type=minecraft:block_display,limit=1,sort=nearest,tag=phantom_block,distance=..0.1] run function origins:phantom/replace_block

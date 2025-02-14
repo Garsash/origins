@@ -1,0 +1,2 @@
+execute unless entity @e[type=marker,limit=1,sort=nearest,tag=inchling] run return run function origins:inchling-test/summon_marker
+execute unless score @s id = @e[type=marker,limit=1,sort=nearest,tag=inchling] id run function origins:inchling-test/summon_marker

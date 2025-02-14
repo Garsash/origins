@@ -1,0 +1,1 @@
+execute as @a[team=Foxkin] at @s rotated as @s run function origins:foxkin/tick

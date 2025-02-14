@@ -1,0 +1,7 @@
+/tellraw @a ["",{"text":"Avian","color":"gold"},{"text":"\n\n"},{"text":"+ ","color":"green"},{"text":"Has permanent slow falling\n"},{"text":"+ ","color":"green"},{"text":"Is a bit quicker\n\n"},{"text":"-","color":"red"},{"text":" Needs to sleep at high altitudes\n"},{"text":"-","color":"red"},{"text":" Can't eat meat\n "}]
+
+/tellraw @a ["",{"text":"Arachnid","color":"gold"},{"text":"\n\n"},{"text":"+ ","color":"green"},{"text":"Can crouch neat walls to climb\n"},{"text":"+","color":"green"},{"text":" Hinders foes with cobwebs on attack\n\n"},{"text":"-","color":"red"},{"text":" Has two less hearts\n"},{"text":"-","color":"red"},{"text":" Can only eat meat\n "}]
+
+/tellraw @a ["",{"text":"Foxkin","color":"gold"},{"text":"\n\n"},{"text":"+ ","color":"green"},{"text":"Can run faster\n"},{"text":"+","color":"green"},{"text":" Has night vision\n"},{"text":"+","color":"green"},{"text":" Can go invisible after\ncrouching for 4 seconds\n\n"},{"text":"-","color":"yellow"},{"text":" Is short\n\n"},{"text":"-","color":"red"},{"text":" Has three less hearts\n "}]
+
+/tellraw @a ["",{"text":"Shulk","color":"gold"},{"text":"\n\n"},{"text":"+ ","color":"green"},{"text":"Starts with a shulker which won't drop on death\n"},{"text":"+","color":"green"},{"text":" Natural protection\n"},{"text":"+","color":"green"},{"text":" Can break blocks faster\n\n"},{"text":"-","color":"red"},{"text":" Can't use shields\n"},{"text":"-","color":"red"},{"text":" Exausts quicker\n "}]

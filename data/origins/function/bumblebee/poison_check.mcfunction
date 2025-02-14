@@ -1,0 +1,2 @@
+execute if score $victim ehm._ = $victim ehm._ as @e[predicate=hit_match:is_victim,limit=1] on attacker if entity @s[team=Bumblebee,predicate=origins:fist] run execute if score $victim ehm._ = $victim ehm._ as @e[predicate=hit_match:is_victim,limit=1] run function origins:bumblebee/poison
+scoreboard players set $victim ehm._ 0

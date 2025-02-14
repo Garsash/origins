@@ -1,0 +1,25 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "team": "Florian"
+              }
+            }
+          ],
+          "item": {
+            "items": "#origins:not_honey"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "origins:florian/hunger"
+    }
+  }
+  

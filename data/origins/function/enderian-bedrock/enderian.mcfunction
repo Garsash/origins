@@ -1,0 +1,1 @@
+execute as @a[team=Enderian-Bedrock] at @s rotated as @s run function origins:enderian-bedrock/tick

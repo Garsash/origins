@@ -1,0 +1,2 @@
+$execute anchored eyes positioned ^ ^ ^ positioned ~$(x) ~$(y) ~$(z) run summon creeper ~ ~-0.75 ~ {Fuse:0b,Invisible:1b,ExplosionRadius:-1b,Invulnerable:1b,Silent:1b}
+$execute anchored eyes positioned ^ ^ ^ positioned ~$(x) ~$(y) ~$(z) run particle minecraft:gust

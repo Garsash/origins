@@ -1,0 +1,1 @@
+execute as @a[team=Arachnid] at @s rotated as @s run function origins:arachnid/tick

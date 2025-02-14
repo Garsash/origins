@@ -1,0 +1,13 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type_specific": {
+        "type": "minecraft:player",
+        "advancements": {}
+      },
+      "location": {
+        "can_see_sky": true
+      }
+    }
+  }

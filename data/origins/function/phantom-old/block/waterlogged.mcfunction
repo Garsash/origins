@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ #origins:can_be_waterlogged[waterlogged=true] run data merge entity @s {block_state:{Properties:{waterlogged:"true"}}}

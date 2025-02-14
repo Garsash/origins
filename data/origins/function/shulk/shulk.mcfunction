@@ -1,0 +1,1 @@
+execute as @a[team=Shulk] at @s rotated as @s run function origins:shulk/tick

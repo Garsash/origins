@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ #minecraft:slabs[type=top] run data merge entity @s {block_state:{Properties:{type:"top"}}}

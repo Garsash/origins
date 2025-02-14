@@ -1,0 +1,1 @@
+$execute unless block ~$(x) ~$(y) ~$(z) #enchantment_power_transmitter run function origins:enderian/no_fall

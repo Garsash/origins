@@ -1,0 +1,54 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:all_of",
+						"terms": [
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"team": "Merling"
+								}
+							},
+							{
+								"condition": "minecraft:inverted",
+								"term": {
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"location": {
+											"fluid": {
+												"fluids": "#minecraft:water"
+											}
+										}
+									}
+								}
+							},
+							{
+								"condition": "minecraft:inverted",
+								"term": {
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"location": {
+											"block": {
+												"blocks": "minecraft:water_cauldron"
+											}
+										}
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "origins:merling/out_of_water"
+	}
+}

@@ -1,0 +1,2 @@
+execute if predicate origins:sneak run return run execute if score @s id = @e[type=marker,limit=1,sort=nearest,tag=inchling] id rotated as @e[type=marker,limit=1,sort=nearest,tag=inchling] run tp @e[type=marker,limit=1,sort=nearest,tag=inchling] ^ ^ ^0.25 ~ ~
+execute if score @s id = @e[type=marker,limit=1,sort=nearest,tag=inchling] id rotated ~ 0 run tp @e[type=marker,limit=1,sort=nearest,tag=inchling] ^ ^ ^0.25 ~ ~

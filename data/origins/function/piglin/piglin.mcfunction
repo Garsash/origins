@@ -1,0 +1,1 @@
+execute as @a[team=Piglin] at @s rotated as @s run function origins:piglin/tick

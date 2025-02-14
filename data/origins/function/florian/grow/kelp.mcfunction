@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ kelp[age=25] if block ~ ~1 ~ water run function origins:florian/place/kelp

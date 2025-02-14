@@ -1,0 +1,1 @@
+execute as @a[team=Elytrian-Shift] at @s rotated as @s run function origins:elytrian-shift/tick

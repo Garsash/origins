@@ -1,0 +1,2 @@
+execute if block ~ ~ ~ chorus_plant positioned ~ ~ ~ run function origins:florian/place/chorus_fruit/check_up
+execute if block ~ ~ ~ chorus_flower positioned ~ ~ ~ run function origins:florian/place/chorus_flower

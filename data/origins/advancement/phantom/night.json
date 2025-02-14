@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:time_check",
+            "value": {
+              "min": 12001,
+              "max": 24000
+            },
+            "period": 24000
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "origins:phantom/night"
+  }
+}

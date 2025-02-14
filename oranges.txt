@@ -1,0 +1,72 @@
+All
++ change UI to make it smaller and to the side
+
+@##
+
+Avian
+
+Arachnid
+- add web burst
+
+Foxkin
++ speed
++ 4 less hearts
++ night vision
++ sneak to invis
++ short
+- hunger
+- add 4s timer to invis
+
+Slimeeq
++ no fall damage
++ low health less damage more knockback
++ increased jump height
++ slower
++ little taller
++ crouch to jump high
+
+Elytrian
++ longer timer
+
+Shulk
+
+Feline
+- scares creepers
+
+@@#
+
+Florian
+
+Enderian
+
+Bumblebee
++ punch poison
++ flower power
++ 2 less hearts
++ ascend 
++ vegatarian
++ short
+
+@@@
+
+Merling
+
+Inchling
++ glide
++ more knockback
++ sugar rush (and hang over)
+
+Piglin
++ gold tools give strength
++ gold armor gives resistance
++ more crossbow damage
++ nether spawn
++ no fire damage in the overworld
++ slower in the overworld
++ carnivore
++ 2 less hearts
+
+Blazeborn
+
+Phantom
+

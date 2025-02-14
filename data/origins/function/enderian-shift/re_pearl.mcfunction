@@ -1,0 +1,1 @@
+execute as @a[tag=pearled] at @s rotated as @s run function origins:enderian-shift/pearl
