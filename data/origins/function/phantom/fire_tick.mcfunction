@@ -1,0 +1,2 @@
+execute unless predicate origins:invisible unless predicate origins:in_water if predicate origins:in_daylight if score day origins.time matches 1 if score state origins.weather matches 0 unless score @s origins.phantom.fire matches 20.. run return run function origins:phantom/fire_damage
+scoreboard players set @s origins.phantom.fire 0

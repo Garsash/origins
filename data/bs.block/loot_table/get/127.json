@@ -1,1 +1,124 @@
-{"pools":[{"rolls":1,"entries":[{"type":"alternatives","children":[{"type":"item","name":"egg","conditions":[{"condition":"location_check","predicate":{"block":{"state":{"level":"1"}}}}],"functions":[{"function":"set_custom_data","tag":"{properties:{level:'1'},_:{0:'level=1,'}}"}]},{"type":"item","name":"egg","conditions":[{"condition":"location_check","predicate":{"block":{"state":{"level":"2"}}}}],"functions":[{"function":"set_custom_data","tag":"{properties:{level:'2'},_:{0:'level=2,'}}"}]},{"type":"item","name":"egg","conditions":[{"condition":"location_check","predicate":{"block":{"state":{"level":"3"}}}}],"functions":[{"function":"set_custom_data","tag":"{properties:{level:'3'},_:{0:'level=3,'}}"}]}]}]}]}
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "alternatives",
+          "children": [
+            {
+              "type": "loot_table",
+              "value": "bs.block:get/7",
+              "functions": [
+                {
+                  "function": "set_custom_data",
+                  "tag": "{\"properties\":{\"thickness\":\"tip\"},\"_\":{1:\"thickness=tip,\"}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "location_check",
+                  "predicate": {
+                    "block": {
+                      "state": {
+                        "thickness": "tip"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "loot_table",
+              "value": "bs.block:get/7",
+              "functions": [
+                {
+                  "function": "set_custom_data",
+                  "tag": "{\"properties\":{\"thickness\":\"frustum\"},\"_\":{1:\"thickness=frustum,\"}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "location_check",
+                  "predicate": {
+                    "block": {
+                      "state": {
+                        "thickness": "frustum"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "loot_table",
+              "value": "bs.block:get/7",
+              "functions": [
+                {
+                  "function": "set_custom_data",
+                  "tag": "{\"properties\":{\"thickness\":\"middle\"},\"_\":{1:\"thickness=middle,\"}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "location_check",
+                  "predicate": {
+                    "block": {
+                      "state": {
+                        "thickness": "middle"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "loot_table",
+              "value": "bs.block:get/7",
+              "functions": [
+                {
+                  "function": "set_custom_data",
+                  "tag": "{\"properties\":{\"thickness\":\"base\"},\"_\":{1:\"thickness=base,\"}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "location_check",
+                  "predicate": {
+                    "block": {
+                      "state": {
+                        "thickness": "base"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "loot_table",
+              "value": "bs.block:get/7",
+              "functions": [
+                {
+                  "function": "set_custom_data",
+                  "tag": "{\"properties\":{\"thickness\":\"tip_merge\"},\"_\":{1:\"thickness=tip_merge,\"}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "location_check",
+                  "predicate": {
+                    "block": {
+                      "state": {
+                        "thickness": "tip_merge"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,10 @@
 execute if score @s timeSinceDeath matches 1..3 run function origins:inchling/spawn
-execute if predicate origins:sneak run function origins:inchling/sneak
-execute unless predicate origins:sneak run function origins:inchling/unsneak
+
+execute unless predicate origins:movement/shift store result score @s y_rotation run data get entity @s Rotation[0] 10
+attribute @s minecraft:gravity modifier remove minecraft:origins.inchling.gravity_modifier
+attribute @s minecraft:fall_damage_multiplier modifier remove origins:inchling_fall_damage
+execute if function origins:inchling/block_checker_exists run function origins:inchling/climb
+
 execute if items entity @s weapon.mainhand #origins:light run effect give @s slow_falling 1 0
 #execute if items entity @s weapon.mainhand #origins:light run attribute @s gravity modifier add inchling_slow -0.06 add_value
 #execute unless items entity @s weapon.mainhand #origins:light run attribute @s gravity modifier remove inchling_slow

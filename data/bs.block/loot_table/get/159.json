@@ -1,1 +1,58 @@
-{"pools":[{"rolls":1,"entries":[{"type":"alternatives","children":[{"type":"loot_table","value":"bs.block:get/158","conditions":[{"condition":"location_check","predicate":{"block":{"state":{"vault_state":"inactive"}}}}],"functions":[{"function":"set_custom_data","tag":"{properties:{vault_state:'inactive'},_:{2:'vault_state=inactive,'}}"}]},{"type":"loot_table","value":"bs.block:get/158","conditions":[{"condition":"location_check","predicate":{"block":{"state":{"vault_state":"active"}}}}],"functions":[{"function":"set_custom_data","tag":"{properties:{vault_state:'active'},_:{2:'vault_state=active,'}}"}]},{"type":"loot_table","value":"bs.block:get/158","conditions":[{"condition":"location_check","predicate":{"block":{"state":{"vault_state":"unlocking"}}}}],"functions":[{"function":"set_custom_data","tag":"{properties:{vault_state:'unlocking'},_:{2:'vault_state=unlocking,'}}"}]},{"type":"loot_table","value":"bs.block:get/158","conditions":[{"condition":"location_check","predicate":{"block":{"state":{"vault_state":"ejecting"}}}}],"functions":[{"function":"set_custom_data","tag":"{properties:{vault_state:'ejecting'},_:{2:'vault_state=ejecting,'}}"}]}]}]}]}
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "alternatives",
+          "children": [
+            {
+              "type": "loot_table",
+              "value": "bs.block:get/2",
+              "functions": [
+                {
+                  "function": "set_custom_data",
+                  "tag": "{\"properties\":{\"attached\":\"false\"},\"_\":{2:\"attached=false,\"}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "location_check",
+                  "predicate": {
+                    "block": {
+                      "state": {
+                        "attached": "false"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "loot_table",
+              "value": "bs.block:get/2",
+              "functions": [
+                {
+                  "function": "set_custom_data",
+                  "tag": "{\"properties\":{\"attached\":\"true\"},\"_\":{2:\"attached=true,\"}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "location_check",
+                  "predicate": {
+                    "block": {
+                      "state": {
+                        "attached": "true"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

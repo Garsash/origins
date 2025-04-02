@@ -1,1 +1,80 @@
-{"pools":[{"rolls":1,"entries":[{"type":"alternatives","children":[{"type":"loot_table","value":"bs.block:get/88","conditions":[{"condition":"location_check","predicate":{"block":{"state":{"east":"none"}}}}],"functions":[{"function":"set_custom_data","tag":"{properties:{east:'none'},_:{1:'east=none,'}}"}]},{"type":"loot_table","value":"bs.block:get/88","conditions":[{"condition":"location_check","predicate":{"block":{"state":{"east":"up"}}}}],"functions":[{"function":"set_custom_data","tag":"{properties:{east:'up'},_:{1:'east=up,'}}"}]},{"type":"loot_table","value":"bs.block:get/88","conditions":[{"condition":"location_check","predicate":{"block":{"state":{"east":"side"}}}}],"functions":[{"function":"set_custom_data","tag":"{properties:{east:'side'},_:{1:'east=side,'}}"}]}]}]}]}
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "alternatives",
+          "children": [
+            {
+              "type": "item",
+              "name": "egg",
+              "functions": [
+                {
+                  "function": "set_custom_data",
+                  "tag": "{\"properties\":{\"level\":\"1\"},\"_\":{0:\"level=1,\"}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "location_check",
+                  "predicate": {
+                    "block": {
+                      "state": {
+                        "level": "1"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "egg",
+              "functions": [
+                {
+                  "function": "set_custom_data",
+                  "tag": "{\"properties\":{\"level\":\"2\"},\"_\":{0:\"level=2,\"}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "location_check",
+                  "predicate": {
+                    "block": {
+                      "state": {
+                        "level": "2"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "egg",
+              "functions": [
+                {
+                  "function": "set_custom_data",
+                  "tag": "{\"properties\":{\"level\":\"3\"},\"_\":{0:\"level=3,\"}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "location_check",
+                  "predicate": {
+                    "block": {
+                      "state": {
+                        "level": "3"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

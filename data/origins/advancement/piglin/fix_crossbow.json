@@ -23,9 +23,7 @@
                   "items": "minecraft:crossbow",
                   "components": {
                     "minecraft:enchantments": {
-                      "levels": {
                         "origins:piglin": 1
-                      }
                     }
                   }
                 }

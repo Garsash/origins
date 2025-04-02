@@ -1,1 +1,58 @@
-{"pools":[{"rolls":1,"entries":[{"type":"alternatives","children":[{"type":"item","name":"egg","conditions":[{"condition":"location_check","predicate":{"block":{"state":{"bottom":"true"}}}}],"functions":[{"function":"set_custom_data","tag":"{properties:{bottom:'true'},_:{0:'bottom=true,'}}"}]},{"type":"item","name":"egg","conditions":[{"condition":"location_check","predicate":{"block":{"state":{"bottom":"false"}}}}],"functions":[{"function":"set_custom_data","tag":"{properties:{bottom:'false'},_:{0:'bottom=false,'}}"}]}]}]}]}
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "alternatives",
+          "children": [
+            {
+              "type": "loot_table",
+              "value": "bs.block:get/36",
+              "functions": [
+                {
+                  "function": "set_custom_data",
+                  "tag": "{\"properties\":{\"powered\":\"false\"},\"_\":{1:\"powered=false,\"}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "location_check",
+                  "predicate": {
+                    "block": {
+                      "state": {
+                        "powered": "false"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "loot_table",
+              "value": "bs.block:get/36",
+              "functions": [
+                {
+                  "function": "set_custom_data",
+                  "tag": "{\"properties\":{\"powered\":\"true\"},\"_\":{1:\"powered=true,\"}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "location_check",
+                  "predicate": {
+                    "block": {
+                      "state": {
+                        "powered": "true"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

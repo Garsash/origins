@@ -8,6 +8,6 @@ function origins:phantom/try_switch
 
 function origins:phantom/tangibility
 
-execute unless predicate origins:invisible unless predicate origins:in_water if predicate origins:in_daylight if score day origins.time matches 1 if score state origins.weather matches 0 run damage @s 1 on_fire
+function origins:phantom/fire_tick
 
 execute as @e[tag=origins.phantom.make_tangible] at @s align xyz run function origins:phantom/block/make_tangible

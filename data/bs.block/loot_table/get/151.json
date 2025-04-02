@@ -1,1 +1,102 @@
-{"pools":[{"rolls":1,"entries":[{"type":"alternatives","children":[{"type":"item","name":"egg","conditions":[{"condition":"location_check","predicate":{"block":{"state":{"ominous":"false"}}}}],"functions":[{"function":"set_custom_data","tag":"{properties:{ominous:'false'},_:{0:'ominous=false,'}}"}]},{"type":"item","name":"egg","conditions":[{"condition":"location_check","predicate":{"block":{"state":{"ominous":"true"}}}}],"functions":[{"function":"set_custom_data","tag":"{properties:{ominous:'true'},_:{0:'ominous=true,'}}"}]}]}]}]}
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "alternatives",
+          "children": [
+            {
+              "type": "item",
+              "name": "egg",
+              "functions": [
+                {
+                  "function": "set_custom_data",
+                  "tag": "{\"properties\":{\"mode\":\"start\"},\"_\":{0:\"mode=start,\"}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "location_check",
+                  "predicate": {
+                    "block": {
+                      "state": {
+                        "mode": "start"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "egg",
+              "functions": [
+                {
+                  "function": "set_custom_data",
+                  "tag": "{\"properties\":{\"mode\":\"log\"},\"_\":{0:\"mode=log,\"}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "location_check",
+                  "predicate": {
+                    "block": {
+                      "state": {
+                        "mode": "log"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "egg",
+              "functions": [
+                {
+                  "function": "set_custom_data",
+                  "tag": "{\"properties\":{\"mode\":\"fail\"},\"_\":{0:\"mode=fail,\"}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "location_check",
+                  "predicate": {
+                    "block": {
+                      "state": {
+                        "mode": "fail"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "egg",
+              "functions": [
+                {
+                  "function": "set_custom_data",
+                  "tag": "{\"properties\":{\"mode\":\"accept\"},\"_\":{0:\"mode=accept,\"}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "location_check",
+                  "predicate": {
+                    "block": {
+                      "state": {
+                        "mode": "accept"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

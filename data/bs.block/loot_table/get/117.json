@@ -1,1 +1,58 @@
-{"pools":[{"rolls":1,"entries":[{"type":"alternatives","children":[{"type":"loot_table","value":"bs.block:get/116","conditions":[{"condition":"location_check","predicate":{"block":{"state":{"east":"none"}}}}],"functions":[{"function":"set_custom_data","tag":"{properties:{east:'none'},_:{1:'east=none,'}}"}]},{"type":"loot_table","value":"bs.block:get/116","conditions":[{"condition":"location_check","predicate":{"block":{"state":{"east":"low"}}}}],"functions":[{"function":"set_custom_data","tag":"{properties:{east:'low'},_:{1:'east=low,'}}"}]},{"type":"loot_table","value":"bs.block:get/116","conditions":[{"condition":"location_check","predicate":{"block":{"state":{"east":"tall"}}}}],"functions":[{"function":"set_custom_data","tag":"{properties:{east:'tall'},_:{1:'east=tall,'}}"}]}]}]}]}
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "alternatives",
+          "children": [
+            {
+              "type": "item",
+              "name": "egg",
+              "functions": [
+                {
+                  "function": "set_custom_data",
+                  "tag": "{\"properties\":{\"tip\":\"true\"},\"_\":{0:\"tip=true,\"}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "location_check",
+                  "predicate": {
+                    "block": {
+                      "state": {
+                        "tip": "true"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "egg",
+              "functions": [
+                {
+                  "function": "set_custom_data",
+                  "tag": "{\"properties\":{\"tip\":\"false\"},\"_\":{0:\"tip=false,\"}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "location_check",
+                  "predicate": {
+                    "block": {
+                      "state": {
+                        "tip": "false"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

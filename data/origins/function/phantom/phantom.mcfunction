@@ -1,4 +1,4 @@
 execute as @a[team=Phantom] at @s rotated as @s run function origins:phantom/tick
 
 execute as @e[tag=!origins.phantom.intangible,tag=!origins.phantom.intangible_block] at @s anchored eyes positioned ^ ^ ^ align xyz if entity @n[type=marker,tag=origins.phantom.intangible_block,distance=..1] run scoreboard players add @s origins.phantom.suffocate 1
-execute as @e[tag=!origins.phantom.intangible,tag=!origins.phantom.intangible_block] if score @s origins.phantom.suffocate matches 5.. run function origins:phantom/suffocate
+execute as @e[tag=!origins.phantom.intangible,tag=!origins.phantom.intangible_block,type=!item,type=!armor_stand,type=!marker,type=!item_frame,type=!glow_item_frame,type=!block_display,type=!item_display,type=!text_display] if score @s origins.phantom.suffocate matches 5.. run function origins:phantom/suffocate

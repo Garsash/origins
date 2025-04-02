@@ -15,5 +15,5 @@ attribute @s gravity modifier add inchling_gravity -0.02 add_value
 #attribute @s entity_interaction_range base set 2.5
 #attribute @s entity_interaction_range modifier add inchling_entity_range -0.5 add_value
 #attribute @s max_health base set 10
-#attribute @s max_health modifier add inchling_health -10 add_value
+attribute @s max_health modifier add inchling_health -10 add_value
 attribute @s minecraft:knockback_resistance modifier add inchling_knockback -10 add_value

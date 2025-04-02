@@ -1,1 +1,80 @@
-{"pools":[{"rolls":1,"entries":[{"type":"alternatives","children":[{"type":"loot_table","value":"bs.block:get/130","conditions":[{"condition":"location_check","predicate":{"block":{"state":{"south":"none"}}}}],"functions":[{"function":"set_custom_data","tag":"{properties:{south:'none'},_:{3:'south=none,'}}"}]},{"type":"loot_table","value":"bs.block:get/130","conditions":[{"condition":"location_check","predicate":{"block":{"state":{"south":"up"}}}}],"functions":[{"function":"set_custom_data","tag":"{properties:{south:'up'},_:{3:'south=up,'}}"}]},{"type":"loot_table","value":"bs.block:get/130","conditions":[{"condition":"location_check","predicate":{"block":{"state":{"south":"side"}}}}],"functions":[{"function":"set_custom_data","tag":"{properties:{south:'side'},_:{3:'south=side,'}}"}]}]}]}]}
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "alternatives",
+          "children": [
+            {
+              "type": "loot_table",
+              "value": "bs.block:get/89",
+              "functions": [
+                {
+                  "function": "set_custom_data",
+                  "tag": "{\"properties\":{\"east\":\"none\"},\"_\":{1:\"east=none,\"}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "location_check",
+                  "predicate": {
+                    "block": {
+                      "state": {
+                        "east": "none"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "loot_table",
+              "value": "bs.block:get/89",
+              "functions": [
+                {
+                  "function": "set_custom_data",
+                  "tag": "{\"properties\":{\"east\":\"up\"},\"_\":{1:\"east=up,\"}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "location_check",
+                  "predicate": {
+                    "block": {
+                      "state": {
+                        "east": "up"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "loot_table",
+              "value": "bs.block:get/89",
+              "functions": [
+                {
+                  "function": "set_custom_data",
+                  "tag": "{\"properties\":{\"east\":\"side\"},\"_\":{1:\"east=side,\"}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "location_check",
+                  "predicate": {
+                    "block": {
+                      "state": {
+                        "east": "side"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

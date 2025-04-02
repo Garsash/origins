@@ -3,6 +3,7 @@
         "origins:load",
         "player_motion:internal/technical/load",
         "hit_match:load",
+	      "#load:_private/load",
     {
       "id": "#bs.biome:load",
       "required": false

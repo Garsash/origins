@@ -1,3 +1,4 @@
+title @s actionbar {"text":",.","font":"orphans:phantom_hotbar"}
 execute unless predicate origins:natural_invisibility run effect give @s invisibility infinite 0 true
 execute unless predicate origins:natural_hunger run effect give @s hunger infinite 1 true
 

@@ -8,8 +8,8 @@ advancement revoke @a only origins:enderian-bedrock/pearl
 advancement revoke @a only origins:enderian-shift/water_damage
 advancement revoke @a only origins:enderian-shift/pearl
 #advancement revoke @a only origins:phantom/teleport
-advancement revoke @a only origins:merling/in_water
-advancement revoke @a only origins:merling/out_of_water
+#advancement revoke @a only origins:merling/in_water
+#advancement revoke @a only origins:merling/out_of_water
 advancement revoke @a only origins:avian/no_sleep
 advancement revoke @a only origins:avian/no_meat
 advancement revoke @a only origins:blazeborn/status
@@ -77,6 +77,8 @@ scoreboard objectives add hunger food
 scoreboard objectives add origins.time dummy
 scoreboard objectives add origins.weather dummy
 scoreboard objectives add origins.phantom.suffocate dummy
+scoreboard objectives add origins.phantom.fire dummy
+scoreboard objectives add origins.merling.drown dummy
 scoreboard objectives add avian trigger
 scoreboard objectives add arachnid trigger
 scoreboard objectives add foxkin trigger

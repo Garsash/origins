@@ -23,9 +23,7 @@
                   "items": "#origins:golden_tools",
                   "components": {
                     "minecraft:enchantments": {
-                      "levels": {
                         "origins:piglin": 1
-                      }
                     }
                   }
                 }
