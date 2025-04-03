@@ -5,4 +5,4 @@ data modify storage bs:in block.spawn_block_display merge value {extra_nbt:{Tags
 function #bs.block:spawn_block_display
 scoreboard players operation _set id = @s id
 execute summon marker run function origins:phantom/block/create_marker
-setblock ~ ~ ~ air
+setblock ~ ~ ~ air strict

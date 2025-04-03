@@ -12,4 +12,4 @@ loot replace entity 00000005-0000-0003-0000-000200000000 contents loot blockstat
 summon block_display ~ ~ ~ {Tags:["phantom_block","spawning"]}
 data modify entity @e[type=minecraft:block_display,limit=1,sort=nearest,tag=spawning] block_state set from entity 00000005-0000-0003-0000-000200000000 item.components."minecraft:custom_data"
 tag @e[type=minecraft:block_display,limit=1,sort=nearest,tag=spawning] remove spawning
-setblock ~ ~ ~ air
+setblock ~ ~ ~ air strict

@@ -1,1 +1,1 @@
-$setblock ~ ~ ~ $(block)
+$setblock ~ ~ ~ $(block) strict

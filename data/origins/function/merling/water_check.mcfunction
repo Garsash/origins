@@ -1,6 +1,6 @@
-execute unless score @s origins.merling.drown matches 20.. run return run scoreboard players add @s origins.merling.drown 1
+execute unless score @s origins.merling.drown matches 30.. run return run scoreboard players add @s origins.merling.drown 1
 
-execute if score @s origins.merling.drown matches 20.. run scoreboard players set @s origins.merling.drown 0
+execute if score @s origins.merling.drown matches 30.. run scoreboard players set @s origins.merling.drown 0
 
 execute at @s anchored eyes positioned ^ ^ ^ if block ~ ~ ~ water run return run function origins:merling/in_water
 
