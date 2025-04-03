@@ -1,1 +1,1 @@
-$effect give @s jump_boost 1 $(jump_height)
+$execute unless predicate natural_jump_boost run effect give @s jump_boost 1 $(jump_height) true

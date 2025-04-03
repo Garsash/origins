@@ -1,0 +1,6 @@
+{
+    "files.exclude": {
+        "/data/bs.block": true,
+        "/data/bs.hitbox": true
+    }
+}

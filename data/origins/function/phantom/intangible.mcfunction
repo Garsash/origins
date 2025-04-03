@@ -4,9 +4,8 @@ execute unless predicate origins:natural_hunger run effect give @s hunger infini
 
 execute align xyz run function origins:phantom/block/keep_intangible
 execute positioned ~ ~1 ~ align xyz run function origins:phantom/block/try_make_intangible
-execute if predicate origins:movement/space positioned ~ ~2 ~ align xyz run function origins:phantom/block/try_make_intangible
-execute if predicate origins:movement/shift positioned ~ ~-1 ~ align xyz run function origins:phantom/block/try_make_intangible
-execute if predicate origins:movement/shift align xyz run function origins:phantom/block/try_make_intangible
+execute if predicate origins:movement/space run function origins:phantom/up
+execute if predicate origins:movement/shift run function origins:phantom/down
 
 execute if predicate origins:movement/w rotated ~ 0 positioned ^ ^ ^1 align xyz run function origins:phantom/forward
 
