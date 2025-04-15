@@ -99,6 +99,10 @@ scoreboard objectives add piglin trigger
 scoreboard objectives add blazeborn trigger
 scoreboard objectives add phantom trigger
 scoreboard objectives add book trigger
+scoreboard objectives add config trigger
+
+scoreboard objectives add origins.settings.activation-type dummy
+scoreboard objectives add origins.settings.detection-position dummy
 
 scoreboard players set 20 numbers 20
 scoreboard players set 10 numbers 10

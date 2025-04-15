@@ -40,6 +40,7 @@ execute as @a[scores={piglin=1..}] run function origins:select/trigger/piglin
 execute as @a[scores={blazeborn=1..}] run function origins:select/trigger/blazeborn
 execute as @a[scores={phantom=1..}] run function origins:select/trigger/phantom
 execute as @a[scores={book=1..}] run function origins:select/book
+execute as @a[scores={config=1..}] run function origins:config/player_config
 
 scoreboard players enable @a avian
 scoreboard players enable @a arachnid
@@ -60,6 +61,7 @@ scoreboard players enable @a inchling
 scoreboard players enable @a piglin
 scoreboard players enable @a blazeborn
 scoreboard players enable @a phantom
+scoreboard players enable @a config
 scoreboard players enable @a book
 
 execute as @a run scoreboard players operation @s deathTimeDisplay = @s timeSinceDeath

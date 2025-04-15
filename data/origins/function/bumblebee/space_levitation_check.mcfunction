@@ -1,5 +1,5 @@
 execute unless score @s cooldown matches ..-1 run function origins:bumblebee/set_display
-execute if score @s cooldown matches ..150 at @s unless function origins:on_ground if predicate origins:sneak run return run function origins:bumblebee/levitation
+execute if function origins:bumblebee/space_check if score @s cooldown matches ..160 at @s unless function origins:on_ground run return run function origins:bumblebee/levitation
 execute unless predicate origins:natural_levitation run effect clear @s levitation
 execute if score @s cooldown > @s effect_cooldown_2 run scoreboard players set @s effect_cooldown 1
 scoreboard players operation @s effect_cooldown_2 = @s cooldown

@@ -1,0 +1,28 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"effects": {
+					"minecraft:levitation": {
+						"visible": false
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"movement": {
+					"vertical_speed": {
+						"min": -100000000,
+						"max": 2
+					}
+				}
+			}
+		}
+	]
+}
