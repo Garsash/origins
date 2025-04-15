@@ -1,7 +1,7 @@
 execute if score @s timeSinceDeath matches 1..3 run function origins:bumblebee/spawn
 
-execute as @s[scores={origins.settings.activation-type=0}] run function origins:bumblebee/levitation_check
-execute as @s[scores={origins.settings.activation-type=1}] run function origins:bumblebee/space_levitation_check
+execute if entity @s[scores={origins.settings.activation-type=0}] run function origins:bumblebee/levitation_check
+execute unless entity @s[scores={origins.settings.activation-type=0}] run function origins:bumblebee/space_levitation_check
 
 #if predicate origins:in_air run say a
 #execute if predicate origins:sneaking run say b
