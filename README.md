@@ -1,10 +1,17 @@
 ![Minecraft update style heading which reads "Vanilla Origins"](https://cdn.modrinth.com/data/cached_images/12ed393040fbddea68ef83ef379cc50085325e3c.png)
 
+## **Download **
+
+The mod is availabel at [Vanilla Origins](https://modrinth.com/datapack/vanilla-origins) on Modrinth.
+
 ## **Description**
 
 Remember the origins mod from back in 2020? This is a new datapack port of the mod and some it's addons!
 
 Upon joining the game a player is given a book which allows them to choose 1 of 15 "Origins". These origins give the player abilities which will change how they play the game going forward. For example the Merling origin removes their ability to breathe in air but instead allows them to breathe underwater.
+## **Resource Pack**
+
+The experience is much better with the resource pack provided in the versions screen.
 
 ## **Origins**
 
