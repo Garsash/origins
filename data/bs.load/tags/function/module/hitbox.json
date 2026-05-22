@@ -1,6 +1,1 @@
-{
-  "replace": true,
-  "values": [
-    "bs.hitbox:__load__"
-  ]
-}
+{"replace":true,"values":[{"id":"#bs.load:module/log","required":false},"bs.hitbox:__load__"]}

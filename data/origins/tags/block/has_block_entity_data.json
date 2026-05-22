@@ -1,0 +1,32 @@
+{
+  "values": [
+    "minecraft:furnace",
+    "minecraft:smoker",
+    "minecraft:blast_furnace",
+    "#minecraft:campfires",
+    "minecraft:jukebox",
+    "minecraft:brewing_stand",
+    "minecraft:beacon",
+    "#minecraft:beehives",
+    "minecraft:decorated_pot",
+    "minecraft:suspicious_gravel",
+    "minecraft:suspicious_sand",
+    "minecraft:chiseled_bookshelf",
+    "#minecraft:copper_chests",
+    "minecraft:chest",
+    "minecraft:trapped_chest",
+    "minecraft:barrel",
+    "#minecraft:shulker_boxes",
+    "minecraft:respawn_anchor",
+    "minecraft:spawner",
+    "minecraft:trial_spawner",
+    "minecraft:command_block",
+    "minecraft:chain_command_block",
+    "minecraft:repeating_command_block",
+    "minecraft:dispenser",
+    "minecraft:dropper",
+    "minecraft:crafter",
+    "minecraft:hopper",
+    "#minecraft:wooden_shelves"
+  ]
+}

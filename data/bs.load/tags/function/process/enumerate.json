@@ -1,6 +1,1 @@
-{
-  "values": [
-    "bs.load:v3.0.0/enumerate/hitbox",
-    "bs.load:v3.0.0/enumerate/load"
-  ]
-}
+{"values":["bs.load:v4.0.1/enumerate/block","bs.load:v4.0.1/enumerate/load"]}

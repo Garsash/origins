@@ -1,1 +1,1 @@
-gamerule fallDamage true
+gamerule fall_damage true

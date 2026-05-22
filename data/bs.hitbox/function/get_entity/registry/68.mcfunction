@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------------------------------------------
-# Copyright (c) 2025 Gunivers
+# Copyright (c) 2026 Gunivers
 #
 # This file is part of the Bookshelf project (https://github.com/mcbookshelf/bookshelf).
 #
@@ -15,7 +15,7 @@
 
 # player group
 execute if entity @s[gamemode=spectator] run return run data modify storage bs:out hitbox set value {width:0.0,height:0.0}
-execute at @s positioned ~ ~1.6 ~ if entity @s[dx=0] run return run data modify storage bs:out hitbox set value {width:0.6,height:1.8}
-execute at @s positioned ~ ~1 ~ if entity @s[dx=0] run return run data modify storage bs:out hitbox set value {width:0.6,height:1.5}
-execute at @s positioned ~ ~.5 ~ if entity @s[dx=0] run return run data modify storage bs:out hitbox set value {width:0.6,height:0.6}
-data modify storage bs:out hitbox set value {width:0.2,height:0.2}
+execute if predicate bs.hitbox:internal/is_sneaking run return run data modify storage bs:out hitbox set value {width:0.6,height:1.5}
+execute if predicate bs.hitbox:internal/is_swimming run return run data modify storage bs:out hitbox set value {width:0.6,height:0.6}
+execute if predicate bs.hitbox:internal/is_gliding run return run data modify storage bs:out hitbox set value {width:0.6,height:0.6}
+data modify storage bs:out hitbox set value {width:0.6,height:1.8}

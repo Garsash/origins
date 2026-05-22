@@ -1,5 +1,5 @@
 #execute as @e[type=item] if items entity @s container.0 minecraft:poisonous_potato[custom_model_data={floats:[1]}] run kill @s
-execute if score @s timeSinceDeath matches 1..3 run function origins:phantom/spawn
+execute if score @s origins.timeSinceDeath matches 1..3 run function origins:phantom/spawn
 
 scoreboard players operation _check id = @s id
 execute as @e[type=marker,tag=origins.phantom.intangible_block] if score @s id = _check id run tag @s add origins.phantom.make_tangible

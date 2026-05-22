@@ -49,36 +49,40 @@ advancement revoke @a only origins:merling/effects
 advancement revoke @a only origins:blazeborn/effects
 advancement revoke @a only origins:bumblebee/no_meat
 
-scoreboard objectives add timeSinceDeath minecraft.custom:minecraft.time_since_death
-scoreboard objectives add deathTimeDisplay dummy
-scoreboard objectives add deaths deathCount {"color":"dark_red","text":"Deaths"}
-scoreboard objectives add tmp dummy
+#scoreboard objectives add deathTimeDisplay dummy
+#scoreboard objectives add deaths origins.shulk.deathCount {"color":"dark_red","text":"Deaths"}
+#scoreboard objectives add origins.sprintTime minecraft.custom:minecraft.sprint_one_cm
+#scoreboard objectives add origins.lastSprint dummy
+#scoreboard objectives add carrot_click minecraft.used:minecraft.carrot_on_a_stick
+
+scoreboard objectives add origins.timeSinceDeath minecraft.custom:minecraft.time_since_death
+scoreboard objectives add origins.sneakTime minecraft.custom:minecraft.sneak_time
+scoreboard objectives add origins.sneakCheck dummy
+scoreboard objectives add origins.tmp dummy
 scoreboard objectives add cooldown dummy
-scoreboard objectives add numbers dummy
-scoreboard objectives add sneakTime minecraft.custom:minecraft.sneak_time
-scoreboard objectives add sneakCheck dummy
-scoreboard objectives add sprintTime minecraft.custom:minecraft.sprint_one_cm
-scoreboard objectives add lastSprint dummy
-scoreboard objectives add jumps minecraft.custom:minecraft.jump
-scoreboard objectives add health health
-scoreboard objectives add deathCount deathCount
-scoreboard objectives add timeAlive dummy
-scoreboard objectives add weakness dummy
+scoreboard objectives add 2ndcooldown dummy
 scoreboard objectives add effect_cooldown dummy
 scoreboard objectives add effect_cooldown_2 dummy
-scoreboard objectives add carrot_click minecraft.used:minecraft.carrot_on_a_stick
-scoreboard objectives add 2ndcooldown dummy
+scoreboard objectives add numbers dummy
+scoreboard objectives add health health
 scoreboard objectives add id dummy
-scoreboard objectives add sugar_rush dummy
-scoreboard objectives add hang_over dummy
 scoreboard objectives add var dummy
-scoreboard objectives add y_rotation dummy
-scoreboard objectives add hunger food
 scoreboard objectives add origins.time dummy
 scoreboard objectives add origins.weather dummy
+scoreboard objectives add y_rotation dummy
+
+scoreboard objectives add origins.arachnid.timeAlive dummy
+scoreboard objectives add origins.slimeeq.jumps minecraft.custom:minecraft.jump
+scoreboard objectives add origins.shulk.deathCount deathCount
+scoreboard objectives add origins.shulk.handleDelay dummy
+scoreboard objectives add origins.inchling.sugar_rush dummy
+scoreboard objectives add origins.inchling.hang_over dummy
+scoreboard objectives add weakness dummy
+scoreboard objectives add hunger food
 scoreboard objectives add origins.phantom.suffocate dummy
 scoreboard objectives add origins.phantom.fire dummy
 scoreboard objectives add origins.merling.drown dummy
+
 scoreboard objectives add avian trigger
 scoreboard objectives add arachnid trigger
 scoreboard objectives add foxkin trigger
@@ -100,9 +104,13 @@ scoreboard objectives add blazeborn trigger
 scoreboard objectives add phantom trigger
 scoreboard objectives add book trigger
 scoreboard objectives add config trigger
+scoreboard objectives add backup_shulker_box trigger
 
+scoreboard objectives add origins.settings dummy
 scoreboard objectives add origins.settings.activation-type dummy
 scoreboard objectives add origins.settings.detection-position dummy
+
+scoreboard players set triggers origins.settings 0
 
 scoreboard players set 20 numbers 20
 scoreboard players set 10 numbers 10

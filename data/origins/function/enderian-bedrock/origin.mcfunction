@@ -7,6 +7,6 @@ advancement revoke @a only origins:enderian-bedrock/pearl
 advancement revoke @a only origins:phantom/teleport
 advancement revoke @a only origins:merling/in_water
 advancement revoke @a only origins:merling/out_of_water
-gamerule keepInventory true
+gamerule keep_inventory true
 kill @s
-gamerule keepInventory false
+gamerule keep_inventory false

@@ -1,5 +1,5 @@
 #execute as @e[type=item] if items entity @s container.0 minecraft:poisonous_potato[custom_model_data={floats:[1]}] run kill @s
-execute if score @s timeSinceDeath matches 1..3 run function origins:elytrian-shift/spawn
+execute if score @s origins.timeSinceDeath matches 1..3 run function origins:elytrian-shift/spawn
 execute if predicate origins:sneak run function origins:elytrian-shift/use_boost
 execute if score @s cooldown matches 0.. run scoreboard players remove @s cooldown 1
 execute if score @s cooldown matches 0.. run function origins:elytrian-shift/set_display

@@ -13,11 +13,13 @@ kill @e[type=endermite,distance=..2]
 execute if score @s cooldown matches -10.. run scoreboard players remove @s cooldown 1
 function origins:enderian-bedrock/swap_display
 
-execute if score @s timeSinceDeath matches 1..3 run function origins:enderian-bedrock/spawn
+execute if score @s origins.timeSinceDeath matches 1..3 run function origins:enderian-bedrock/spawn
 
 function origins:enderian-bedrock/scary
 #execute if entity @e[distance=16..32,type=iron_golem] run function origins:enderian-bedrock/scary
 
 execute if score @s 2ndcooldown matches -1.. run scoreboard players remove @s 2ndcooldown 1
-execute if score @s 2ndcooldown matches 0 run function origins:enderian-bedrock/rain_check_start
+execute if score @s 2ndcooldown matches 0 if predicate origins:in_rain run function origins:enderian-bedrock/rain_damage
+
+# execute if score @s 2ndcooldown matches 0 run function origins:enderian-bedrock/rain_check_start
 scoreboard players add @s cooldown 0

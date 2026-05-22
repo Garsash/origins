@@ -1,4 +1,7 @@
 {
   "replace": false,
-  "values": ["zombie"]
+  "values": [
+    "zombie",
+    "player"
+  ]
 }

@@ -1,1 +1,1 @@
-execute if score @s timeSinceDeath matches 1..3 run function origins:avian/spawn
+execute if score @s origins.timeSinceDeath matches 1..3 run function origins:avian/spawn

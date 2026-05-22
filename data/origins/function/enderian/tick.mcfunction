@@ -12,7 +12,7 @@ kill @e[type=endermite,distance=..2]
 execute if score @s cooldown matches 0.. run scoreboard players remove @s cooldown 1
 execute if score @s cooldown matches 0.. run function origins:enderian/set_display
 
-execute if score @s timeSinceDeath matches 1..3 run function origins:enderian/spawn
+execute if score @s origins.timeSinceDeath matches 1..3 run function origins:enderian/spawn
 
 function origins:enderian/scary
 

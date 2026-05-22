@@ -1,8 +1,8 @@
 execute as @e[type=item] if items entity @s container.0 minecraft:poisonous_potato[custom_model_data={floats:[1]}] run kill @s
-execute if score @s timeSinceDeath matches 1..3 run function origins:phantom/spawn
+execute if score @s origins.timeSinceDeath matches 1..3 run function origins:phantom/spawn
 execute unless entity @s[tag=phantom_swapped] if predicate origins:sneak if predicate origins:in_air run function origins:phantom/switch
 execute if entity @s[tag=phantom_swapped] unless predicate origins:sneak unless predicate origins:in_air run tag @s remove phantom_swapped
-execute if score @s sneakTime matches 1.. run scoreboard players operation @s sneakCheck = @s sneakTime
+execute if score @s origins.sneakTime matches 1.. run scoreboard players operation @s origins.sneakCheck = @s origins.sneakTime
 execute unless entity @s[tag=Invisible] run function origins:phantom/daylight_check
 execute if score @s cooldown matches 0.. run scoreboard players remove @s cooldown 1
 #execute if score @s[tag=Invisible] 2ndcooldown matches -1.. run scoreboard players remove @s 2ndcooldown 1

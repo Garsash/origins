@@ -1,5 +1,5 @@
-scoreboard players set tree tmp 0
-execute if score @s timeSinceDeath matches 1..3 run function origins:florian/spawn
+scoreboard players set tree origins.tmp 0
+execute if score @s origins.timeSinceDeath matches 1..3 run function origins:florian/spawn
 execute unless predicate origins:hungry if score @s cooldown matches ..0 if predicate origins:sneaking run function origins:florian/select
 execute if score @s cooldown matches 0.. run scoreboard players remove @s cooldown 1
 execute if score @s effect_cooldown matches ..0 unless function origins:florian/surface run execute if function origins:florian/sunlight_check run function origins:florian/sunlight

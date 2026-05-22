@@ -18,7 +18,6 @@ function origins:slimeeq/slimeeq
 function origins:piglin/piglin
 function origins:bumblebee/bumblebee
 function origins:inchling-test/inchling
-function origins:hit_detection
 
 execute as @a[scores={avian=1..}] run function origins:select/trigger/avian
 execute as @a[scores={arachnid=1..}] run function origins:select/trigger/arachnid
@@ -41,31 +40,17 @@ execute as @a[scores={blazeborn=1..}] run function origins:select/trigger/blazeb
 execute as @a[scores={phantom=1..}] run function origins:select/trigger/phantom
 execute as @a[scores={book=1..}] run function origins:select/book
 execute as @a[scores={config=1..}] run function origins:config/player_config
+execute as @a[scores={backup_shulker_box=1..}] run function origins:shulk/new_box
 
-scoreboard players enable @a avian
-scoreboard players enable @a arachnid
-scoreboard players enable @a foxkin
-scoreboard players enable @a slimeeq
-scoreboard players enable @a elytrian
-scoreboard players enable @a elytrian-bed
-scoreboard players enable @a elytrian-shift
-scoreboard players enable @a shulk
-scoreboard players enable @a feline
-scoreboard players enable @a florian
-scoreboard players enable @a enderian
-scoreboard players enable @a enderian-bed
-scoreboard players enable @a enderian-shift
-scoreboard players enable @a bumblebee
-scoreboard players enable @a merling
-scoreboard players enable @a inchling
-scoreboard players enable @a piglin
-scoreboard players enable @a blazeborn
-scoreboard players enable @a phantom
+execute if score triggers origins.settings matches 0 run function origins:select/trigger/hide
+execute if score triggers origins.settings matches 1 run function origins:select/trigger/show
+
 scoreboard players enable @a config
 scoreboard players enable @a book
+scoreboard players enable @a backup_shulker_box
 
-execute as @a run scoreboard players operation @s deathTimeDisplay = @s timeSinceDeath
-execute as @a run scoreboard players operation @s deathTimeDisplay /= 20 numbers
+#execute as @a run scoreboard players operation @s deathTimeDisplay = @s origins.timeSinceDeath
+#execute as @a run scoreboard players operation @s deathTimeDisplay /= 20 numbers
 scoreboard players add @a id 0
 execute as @a[scores={id=0}] run function origins:int_id
 execute as @p at @s unless score $spawnpoint var matches 1.. run function origins:spawnpoint

@@ -1,3 +1,16 @@
+BUGS
+
+Avian
+ - beds don't drop when facing north or west
+
+Arachnid
+ - Hit detection doesn't work yet (needs 26.2)
+
+
+
+
+
+
 All
 + change UI to make it smaller and to the side
 

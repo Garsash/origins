@@ -1,5 +1,1 @@
-{
-  "values": [
-    "bs.load:resolve/hitbox"
-  ]
-}
+{"values":["bs.load:resolve/block"]}
