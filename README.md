@@ -1,6 +1,6 @@
 ![Minecraft update style heading which reads "Vanilla Origins"](https://cdn.modrinth.com/data/cached_images/12ed393040fbddea68ef83ef379cc50085325e3c.png)
 
-## **Download **
+## **Download**
 
 The mod is availabel at [Vanilla Origins](https://modrinth.com/datapack/vanilla-origins) on Modrinth.
 
