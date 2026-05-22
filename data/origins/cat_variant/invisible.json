@@ -1,0 +1,5 @@
+{
+  "asset_id": "orphans:entity/cat/cat_invisible",
+  "baby_asset_id": "orphans:entity/cat/cat_invisible_baby",
+  "spawn_conditions": []
+}

@@ -1,1 +1,1 @@
-fill ~-1 ~-1 ~-1 ~1 ~1 ~1 air replace lime_bed
+fill ~-1 ~-1 ~-1 ~1 ~1 ~1 air replace lime_bed destroy

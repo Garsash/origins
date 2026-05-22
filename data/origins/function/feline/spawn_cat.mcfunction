@@ -1,0 +1,2 @@
+data merge entity @s {Silent:1b,Team:"Feline",Health:10000f,Age:-100,AgeLocked:1b,variant:"origins:invisible",Tags:["Cat"],active_effects:[{id:"minecraft:regeneration",amplifier:255,duration:-1,show_particles:0b},{id:"minecraft:fire_resistance",amplifier:0,duration:-1,show_particles:0b},{id:"minecraft:resistance",amplifier:255,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:max_health",base:10000},{id:"minecraft:scale",base:0}]}
+scoreboard players operation @s id = @p[team=Feline,distance=..1] id

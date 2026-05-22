@@ -138,4 +138,25 @@ team add Piglin
 team add Bumblebee
 team add Inchling-Test
 
+team modify Enderian seeFriendlyInvisibles false
+team modify Enderian-Bedrock seeFriendlyInvisibles false
+team modify Enderian-Shift seeFriendlyInvisibles false
+team modify Merling seeFriendlyInvisibles false
+team modify Phantom seeFriendlyInvisibles false
+team modify Feline seeFriendlyInvisibles false
+team modify Avian seeFriendlyInvisibles false
+team modify Blazeborn seeFriendlyInvisibles false
+team modify Arachnid seeFriendlyInvisibles false
+team modify Shulk seeFriendlyInvisibles false
+team modify Elytrian seeFriendlyInvisibles false
+team modify Elytrian-Bedrock seeFriendlyInvisibles false
+team modify Elytrian-Shift seeFriendlyInvisibles false
+team modify Inchling seeFriendlyInvisibles false
+team modify Florian seeFriendlyInvisibles false
+team modify Foxkin seeFriendlyInvisibles false
+team modify Slimeeq seeFriendlyInvisibles false
+team modify Piglin seeFriendlyInvisibles false
+team modify Bumblebee seeFriendlyInvisibles false
+team modify Inchling-Test seeFriendlyInvisibles false
+
 execute unless entity 00000005-0000-0003-0000-000200000000 run summon minecraft:item_display 0 -64 0 {UUID:[I;5,3,2,0]}

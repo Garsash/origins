@@ -1,1 +1,1 @@
-fill ~-1 ~-1 ~-1 ~1 ~1 ~1 air replace blue_bed
+fill ~-1 ~-1 ~-1 ~1 ~1 ~1 air replace blue_bed destroy
