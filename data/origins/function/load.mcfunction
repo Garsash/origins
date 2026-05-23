@@ -110,7 +110,7 @@ scoreboard objectives add origins.settings dummy
 scoreboard objectives add origins.settings.activation-type dummy
 scoreboard objectives add origins.settings.detection-position dummy
 
-scoreboard players set triggers origins.settings 0
+execute unless score triggers origins.settings matches 0.. run scoreboard players set triggers origins.settings 1
 
 scoreboard players set 20 numbers 20
 scoreboard players set 10 numbers 10
