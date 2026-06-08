@@ -1,0 +1,1 @@
+execute as @a[team=Merling] at @s run function origins:merling/water/check_in_water
