@@ -1,12 +1,9 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "stepping_on": {
-        "block": {
-          "blocks": "#minecraft:enchantment_power_transmitter"
-        }
-      }
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "flags": {
+      "is_on_ground": false
     }
   }
-  
+}
