@@ -1,4 +1,5 @@
 {
+  "parent": "origins:reset_on_load",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:effects_changed",
@@ -16,7 +17,7 @@
       }
     },
     "rewards": {
-      "function": "origins:foxkin/effects_init"
+      "function": "origins:foxkin/effects"
     }
   }
   
