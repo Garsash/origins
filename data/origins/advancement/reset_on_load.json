@@ -1,0 +1,7 @@
+{
+  "criteria": {
+    "origins:reset_on_load": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
