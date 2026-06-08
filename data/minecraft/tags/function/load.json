@@ -2,6 +2,7 @@
     "values":[
         "#load:_private/load",
         "origins:load",
+        "additional-origins:load",
         "hit_match:load/_",
 		"gu:zzz/load",
         "player_motion:internal/technical/load"

@@ -1,6 +1,7 @@
 {
     "values": [
-        "origins:tick",
+        "origins:tick/tick",
+        "additional-origins:tick",
         "hit_match:tick/_"
     ]
 }
