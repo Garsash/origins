@@ -1,1 +1,0 @@
-fill ~-1 ~-1 ~-1 ~1 ~1 ~1 air replace purple_bed destroy

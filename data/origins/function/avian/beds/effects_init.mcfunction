@@ -1,1 +1,0 @@
-schedule function origins:avian/effects 1t replace

@@ -1,1 +1,0 @@
-fill ~-1 ~-1 ~-1 ~1 ~1 ~1 air replace magenta_bed destroy
