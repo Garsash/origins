@@ -1,1 +1,0 @@
-schedule function origins:feline/effects 1t replace
