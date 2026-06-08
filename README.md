@@ -17,10 +17,14 @@ The experience is much better with the resource pack provided in the versions sc
 
 There is an array of 15 origins to choose from (including the 9 originals), shown here.
 
-![Minecraft book style document including descriptions of each origin and their abilities.](https://cdn.modrinth.com/data/cached_images/79769e735b33e6d4c25dd3a6914b74492e3f5901.png)
+![Minecraft book style document including descriptions of each origin and their abilities.](https://cdn.modrinth.com/data/vwzQX3Uy/images/bbc8f502d4d80635581bafbc3034dac24132abc5.png)
 
 ## **Links**
 - [Original Origins Mod](https://modrinth.com/mod/origins)
 - [Mob Origins](https://modrinth.com/mod/moborigins/versions)
 - [Extra Origins](https://modrinth.com/mod/extra-origins)
-- [Bookshelf API](https://github.com/mcbookshelf/Bookshelf)
+- [Bookshelf Library](https://github.com/mcbookshelf/Bookshelf)
+- [Player Motion Library](https://modrinth.com/datapack/player_motion)
+- [Hit Match](https://github.com/picarrow/hit-match)
+- [Vampire Origin](https://modrinth.com/datapack/origins-vampire)
+- [Starborn Origin](https://www.curseforge.com/minecraft/customization/origins-starborne)
