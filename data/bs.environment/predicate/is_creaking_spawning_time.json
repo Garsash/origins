@@ -1,0 +1,55 @@
+{
+  "__bookshelf__": {
+    "feature": true,
+    "documentation": "https://docs.mcbookshelf.dev/en/latest/modules/environment.html#is-it-creaking-spawning-time",
+    "authors": [
+      "theogiraudet"
+    ],
+    "created": {
+      "date": "2025/07/16",
+      "minecraft_version": "1.21.7"
+    },
+    "updated": {
+      "date": "2026/02/27",
+      "minecraft_version": "26.1"
+    }
+  },
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "minecraft:weather_check",
+          "raining": true
+        },
+        {
+          "condition": "minecraft:time_check",
+          "clock": "minecraft:overworld",
+          "value": {
+            "min": 12010,
+            "max": 23991
+          },
+          "period": 24000
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "minecraft:weather_check",
+          "raining": false
+        },
+        {
+          "condition": "minecraft:time_check",
+          "clock": "minecraft:overworld",
+          "value": {
+            "min": 12542,
+            "max": 23459
+          }
+        }
+      ]
+    }
+  ]
+}
