@@ -1,0 +1,7 @@
+{
+    "replace" :false,
+    "values": [
+        "origins:setup_scoreboards",
+        "origins:setup_teams"
+    ]
+}
