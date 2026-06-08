@@ -1,0 +1,1 @@
+title @s actionbar {"text":",.","font":"orphans:phantom_hotbar"}
