@@ -1,12 +1,6 @@
 execute if score @s origins.timeSinceDeath matches 1..3 run function origins:bumblebee/spawn
 
-execute if entity @s[scores={origins.settings.activation-type=0}] run function origins:bumblebee/levitation_check
-execute unless entity @s[scores={origins.settings.activation-type=0}] run function origins:bumblebee/space_levitation_check
+execute if entity @s[scores={origins.settings.activation-type=0}] run function origins:bumblebee/check_shift_levitation
+execute unless entity @s[scores={origins.settings.activation-type=0}] run function origins:bumblebee/check_space_levitation
 
-#if predicate origins:in_air run say a
-#execute if predicate origins:sneaking run say b
-#execute if predicate origins:in_air if predicate origins:sneaking run say c
-#function origins:bumblebee/poison_check
-
-execute if block ~ ~ ~ #flowers if score @s 2ndcooldown matches ..1 run function origins:bumblebee/saturation
-execute unless score @s 2ndcooldown matches ..0 run scoreboard players remove @s 2ndcooldown 1
+execute if score @s origins.cooldown matches 0.. run function origins:bumblebee/set_display
