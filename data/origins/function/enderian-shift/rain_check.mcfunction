@@ -1,1 +1,0 @@
-execute as @e[tag=rain_check,tag=enderian-shift,type=armor_stand] at @e[team=Enderian-Shift,limit=1,sort=nearest] if score @s id = @e[team=Enderian-Shift,limit=1,sort=nearest] id run function origins:enderian/rain_do

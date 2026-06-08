@@ -1,1 +1,0 @@
-execute as @a[team=Elytrian-Bedrock] at @s rotated as @s run function origins:elytrian-bedrock/tick

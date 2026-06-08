@@ -1,1 +1,0 @@
-execute as @a[team=Phantom] at @s rotated as @s run function origins:phantom/tick

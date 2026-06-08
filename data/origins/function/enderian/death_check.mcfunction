@@ -1,1 +1,0 @@
-execute if score @s origins.timeSinceDeath matches 3.. run function origins:enderian/handle_pearl

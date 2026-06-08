@@ -1,1 +1,0 @@
-attribute @s minecraft:max_health modifier add phantom_health -2 add_value
