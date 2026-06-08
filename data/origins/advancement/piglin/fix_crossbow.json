@@ -1,4 +1,5 @@
 {
+  "parent": "origins:reset_on_load",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:tick",
