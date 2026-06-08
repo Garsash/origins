@@ -1,0 +1,1 @@
+execute as @e[tag=origins.starborn.dart, type=marker] at @s rotated as @s run function additional-origins:starborn/abilities/ability_2/dart_tick

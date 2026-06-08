@@ -1,0 +1,33 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"effects": {
+					"minecraft:absorption": {
+						"amplifier": {
+							"min": 0,
+							"max": 255
+						}
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"effects": {
+					"minecraft:health_boost": {
+						"amplifier": {
+							"min": 0,
+							"max": 255
+						}
+					}
+				}
+			}
+		}
+	]
+}

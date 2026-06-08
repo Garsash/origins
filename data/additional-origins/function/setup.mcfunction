@@ -1,0 +1,1 @@
+scoreboard players set $setup2 origins.settings 1

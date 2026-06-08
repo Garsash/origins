@@ -1,0 +1,2 @@
+execute unless items entity @s armor.chest * run return run item replace entity @s armor.chest with elytra[enchantments={"binding_curse":1},enchantment_glint_override=false,tooltip_display={hidden_components:["enchantable","enchantment_glint_override","unbreakable"]},custom_data={starborn_warp_star_glider: true}] 1
+item modify entity @s armor.chest additional-origins:starborn_warp_star_add_glider

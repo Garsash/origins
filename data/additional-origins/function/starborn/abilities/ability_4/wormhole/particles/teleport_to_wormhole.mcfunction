@@ -1,0 +1,1 @@
+summon area_effect_cloud ~ ~0.1 ~ {custom_particle:{type:large_smoke},Radius:1.5f,Duration:60}

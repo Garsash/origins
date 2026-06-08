@@ -1,0 +1,2 @@
+return run function additional-origins:starborn/gui/abilities/get_selection
+function additional-origins:starborn/gui/fake_ability_selection

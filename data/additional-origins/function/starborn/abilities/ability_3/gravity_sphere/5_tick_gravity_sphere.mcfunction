@@ -1,0 +1,3 @@
+function additional-origins:starborn/abilities/ability_3/gravity_sphere/particles/gravity_sphere
+
+function additional-origins:starborn/abilities/ability_3/gravity_sphere/sounds/gravity_sphere

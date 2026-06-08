@@ -1,0 +1,2 @@
+function additional-origins:starborn/light_effects/light_slowness
+function additional-origins:starborn/light_effects/night_strength

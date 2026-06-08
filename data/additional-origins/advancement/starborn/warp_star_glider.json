@@ -1,0 +1,45 @@
+{
+  "parent": "origins:reset_on_load",
+  "criteria": {
+    "criteria": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "equipment": {
+                            "chest": {
+                                "components": {
+                                    "minecraft:custom_data": {
+                                        "starborn_warp_star_glider": true
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"origins.starborn.warp_star.warping\"]}"
+                        }
+                    }
+                }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "additional-origins:starborn/abilities/ability_4/warp_star/remove_glider"
+  }
+}

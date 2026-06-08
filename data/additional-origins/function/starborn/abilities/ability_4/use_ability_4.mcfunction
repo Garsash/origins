@@ -1,0 +1,3 @@
+execute if score @s origins.starborn.ability_4 matches 3 run function additional-origins:starborn/abilities/ability_4/wormhole/wormhole
+execute if score @s origins.starborn.ability_4 matches 5 run function additional-origins:starborn/abilities/ability_4/blackhole/blackhole
+execute if score @s origins.starborn.ability_4 matches 6 run function additional-origins:starborn/abilities/ability_4/warp_star/warp_star

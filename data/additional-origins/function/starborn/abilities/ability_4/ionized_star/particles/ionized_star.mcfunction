@@ -1,0 +1,1 @@
+particle minecraft:electric_spark ~ ~0.9 ~ 0.2 0.3 0.2 1 10 force @a[distance=..128]

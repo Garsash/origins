@@ -1,0 +1,1 @@
+playsound minecraft:block.beacon.deactivate player @s ~ ~ ~ 5 0.5

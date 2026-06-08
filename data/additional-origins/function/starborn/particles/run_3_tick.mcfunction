@@ -1,0 +1,1 @@
+execute as @a[team=Starborn] at @s unless predicate origins:natural_invisibility run function additional-origins:starborn/particles/3_tick_particles

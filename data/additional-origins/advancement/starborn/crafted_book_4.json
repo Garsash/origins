@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "additional-origins:starborn_ability_book_4"
+      }
+    }
+  },
+  "rewards": {
+    "function": "additional-origins:starborn/select/ability_4/crafted_book_4"
+  }
+}

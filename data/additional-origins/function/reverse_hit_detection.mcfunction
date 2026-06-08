@@ -1,0 +1,1 @@
+execute if score $victim ehm._ = $victim ehm._ as @a[predicate=hit_match:is_victim,limit=1,team=Vampire] if score $source ehm._ = $source ehm._ as @e[predicate=hit_match:is_source,limit=1,predicate=additional-origins:wooden_weapon] run function additional-origins:vampire/weakness/find_player

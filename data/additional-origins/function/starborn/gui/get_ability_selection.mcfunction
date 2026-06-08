@@ -1,0 +1,1 @@
+$data merge entity @e[tag=origins.gui.display_storage,limit=1,sort=nearest,type=marker] {data:{34:$(left),35:"$(char)",36:"$(name)",37:$(right)}}

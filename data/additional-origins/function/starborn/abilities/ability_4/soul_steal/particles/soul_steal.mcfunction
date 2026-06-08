@@ -1,0 +1,1 @@
+particle minecraft:soul ~0 ~0.9 ~0 0.2 0.4 0.4 0.1 5 normal @a

@@ -1,0 +1,31 @@
+{
+  "function": "minecraft:sequence",
+  "functions": [
+    {
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:custom_data": {
+          "starborn_warp_star_glider": false
+        },
+        "!minecraft:glider": {}
+      },
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "chest": {
+                "components": {
+                  "minecraft:custom_data": {
+                    "starborn_warp_star_glider": true
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

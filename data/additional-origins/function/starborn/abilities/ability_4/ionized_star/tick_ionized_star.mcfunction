@@ -1,0 +1,2 @@
+scoreboard players remove @s[scores={origins.starborn.ability_4_timer=1..}] origins.starborn.ability_4_timer 1
+execute if score @s origins.starborn.ability_4_timer matches 0 run function additional-origins:starborn/abilities/ability_4/ionized_star/ionized_star

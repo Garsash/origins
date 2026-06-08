@@ -1,0 +1,1 @@
+playsound minecraft:particle.soul_escape master @a[distance=..15] ~ ~ ~ 5 1

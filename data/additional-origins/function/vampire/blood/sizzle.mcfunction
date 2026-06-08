@@ -1,0 +1,1 @@
+fill ~ ~ ~ ~ ~ ~ fire replace #minecraft:replaceable

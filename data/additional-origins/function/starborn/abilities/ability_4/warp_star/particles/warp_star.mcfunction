@@ -1,0 +1,1 @@
+particle minecraft:reverse_portal ~ ~0.9 ~ 0.1 0.1 0.1 5 200 normal

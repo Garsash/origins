@@ -1,0 +1,1 @@
+playsound minecraft:block.beacon.ambient ambient @a[distance=..15] ~ ~1 ~ 1 0.1

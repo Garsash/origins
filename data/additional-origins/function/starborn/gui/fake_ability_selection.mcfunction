@@ -1,0 +1,1 @@
+data merge entity @e[tag=origins.gui.display_storage,limit=1,sort=nearest,type=marker] {data:{34:20,35:"A",36:"Dash",37:44}}

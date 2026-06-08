@@ -1,0 +1,5 @@
+data merge entity @s {Owner:[I;0,0,0,0],Silent:1b,LifeTime:0,Motion:[0.0,0.0,0.0],FireworksItem:{id:"firework_rocket",count:1,components:{"minecraft:fireworks":{"explosions":[{shape:"burst",colors:[I;6165672,7343027,5573526,6820287,8592319,6294433,8984747,16777215,6630077,7016345],fade_colors:[I;8462847,13578495,9842431,12136191,12472319,11677439,12986879,16777215,11354879,11279615]},{shape:"burst",colors:[I;6165672,7343027,5573526,6820287,8592319,6294433,8984747,16777215,6630077,7016345],fade_colors:[I;8462847,13578495,9842431,12136191,12472319,11677439,12986879,16777215,11354879,11279615]},{shape:"burst",colors:[I;6165672,7343027,5573526,6820287,8592319,6294433,8984747,16777215,6630077,7016345],fade_colors:[I;8462847,8462847,9842431,12136191,12472319,6294433,12986879,16777215,11354879,11279615]}]}}}}
+execute store result entity @s Owner[0] int 1 run scoreboard players get $0 origins.uuid
+execute store result entity @s Owner[1] int 1 run scoreboard players get $1 origins.uuid
+execute store result entity @s Owner[2] int 1 run scoreboard players get $2 origins.uuid
+execute store result entity @s Owner[3] int 1 run scoreboard players get $3 origins.uuid

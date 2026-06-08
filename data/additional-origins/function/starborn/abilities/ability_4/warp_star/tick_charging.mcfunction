@@ -1,0 +1,2 @@
+execute if score @s origins.starborn.ability_4_cooldown matches 0.. run scoreboard players remove @s origins.starborn.ability_4_cooldown 1
+execute if score @s origins.starborn.ability_4_cooldown matches 0 run function additional-origins:starborn/abilities/ability_4/warp_star/stop_charging

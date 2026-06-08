@@ -1,0 +1,1 @@
+execute as @e[tag=origins.starborn.blazing_star.projectile,type=vex] at @s run function additional-origins:starborn/abilities/ability_3/blazing_star/blazing_star_projectile

@@ -1,0 +1,2 @@
+execute if function additional-origins:starborn/gui/player_has_timer run return run function additional-origins:starborn/gui/abilities/get_ability
+function additional-origins:starborn/gui/fake_ability_timer

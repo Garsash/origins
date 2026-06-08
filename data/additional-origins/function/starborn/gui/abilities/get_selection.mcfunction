@@ -1,0 +1,4 @@
+execute if score @s origins.starborn.selected_ability matches 1 run function additional-origins:starborn/gui/get_ability_selection {char:"L",name:"Dash", left:20, right:44}
+execute if score @s origins.starborn.selected_ability matches 2 run function additional-origins:starborn/gui/get_ability_selection {char:"O", name:"Dart", left:20, right:45}
+execute if score @s origins.starborn.selected_ability matches 3 run function additional-origins:starborn/gui/abilities/get_selection_3
+execute if score @s origins.starborn.selected_ability matches 4 run function additional-origins:starborn/gui/abilities/get_selection_4

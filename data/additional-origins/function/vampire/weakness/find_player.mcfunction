@@ -1,0 +1,1 @@
+execute as @a[predicate=hit_match:is_victim,limit=1] run function additional-origins:vampire/weakness/weakness

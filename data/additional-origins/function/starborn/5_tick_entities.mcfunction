@@ -1,0 +1,1 @@
+execute as @e[tag=origins.starborn.gravity_sphere.marker,type=marker] at @s run function additional-origins:starborn/abilities/ability_3/gravity_sphere/5_tick_gravity_sphere

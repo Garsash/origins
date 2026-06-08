@@ -1,0 +1,1 @@
+execute as @e[tag=origins.vampire.bat,type=bat] run function additional-origins:vampire/forms/bat/does_player_exist

@@ -1,0 +1,23 @@
+{
+  "parent": "origins:reset_on_load",
+  "criteria": {
+    "criteria": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "team": "Starborn",
+          "nbt": "{Tags:[\"origins.starborn.warp_star.warping\"]}"
+        },
+        "damage": {
+          "dealt": {
+            "min": 2,
+            "max": 100
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "additional-origins:starborn/abilities/ability_4/warp_star/stop_warping"
+  }
+}

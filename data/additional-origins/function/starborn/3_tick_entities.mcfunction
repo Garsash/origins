@@ -1,0 +1,1 @@
+execute as @p[tag=origins.starborn.warp_star.warping] at @s run function additional-origins:starborn/abilities/ability_4/warp_star/particles/3_warping

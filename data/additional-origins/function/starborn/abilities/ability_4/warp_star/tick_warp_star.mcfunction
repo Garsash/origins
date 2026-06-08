@@ -1,0 +1,2 @@
+execute if entity @s[tag=origins.starborn.warp_star.charging] run function additional-origins:starborn/abilities/ability_4/warp_star/tick_charging
+execute if entity @s[tag=origins.starborn.warp_star.warping] run function additional-origins:starborn/abilities/ability_4/warp_star/tick_warping

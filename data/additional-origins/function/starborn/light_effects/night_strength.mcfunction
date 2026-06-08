@@ -1,0 +1,2 @@
+execute unless predicate origins:time_day if predicate origins:in_daylight unless dimension minecraft:the_nether unless predicate origins:shifting run return run function additional-origins:starborn/light_effects/give_night_strength
+execute if entity @s[tag=origins.starborn.night_strength] run function additional-origins:starborn/light_effects/remove_night_strength

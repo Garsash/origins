@@ -1,0 +1,25 @@
+{
+	"parent": "origins:reset_on_load",
+	"criteria": {
+		"correct_team": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"team": "Starborn",
+							"location": {
+								"dimension": "minecraft:the_nether"
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "additional-origins:select/ability_3_book"
+	}
+}

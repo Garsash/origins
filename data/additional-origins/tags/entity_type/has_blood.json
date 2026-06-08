@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "#additional-origins:average_blood",
+    "#additional-origins:excellent_blood",
+    "#additional-origins:explosive_blood",
+    "#additional-origins:magical_blood",
+    "#additional-origins:otherworldly_blood",
+    "#additional-origins:rotten_blood",
+    "#additional-origins:sizzling_blood",
+    "#additional-origins:slimey_blood",
+    "#additional-origins:toxic_blood"
+  ]
+}

@@ -1,0 +1,7 @@
+execute if score @s origins.starborn.ability_3 matches 1 run function additional-origins:starborn/gui/get_ability_selection {char:"B",name:"Shield", left:18,right:40}
+execute if score @s origins.starborn.ability_3 matches 2 run function additional-origins:starborn/gui/get_ability_selection {char:"C",name:"Star Dash", left:8,right:32}
+execute if score @s origins.starborn.ability_3 matches 3 run function additional-origins:starborn/gui/get_ability_selection {char:"D",name:"Star Strike", left:6,right:30}
+execute if score @s origins.starborn.ability_3 matches 4 run function additional-origins:starborn/gui/get_ability_selection {char:"E",name:"Atomic Blast", left:4,right:28}
+execute if score @s origins.starborn.ability_3 matches 5 run function additional-origins:starborn/gui/get_ability_selection {char:"F",name:"Blazing Star", left:3,right:27}
+execute if score @s origins.starborn.ability_3 matches 6 run function additional-origins:starborn/gui/get_ability_selection {char:"G",name:"Stellar Reminder", left:-4,right:12}
+execute if score @s origins.starborn.ability_3 matches 7 run function additional-origins:starborn/gui/get_ability_selection {char:"H",name:"Gravity Sphere", left:-4,right:18}

@@ -1,0 +1,1 @@
+playsound minecraft:block.enchantment_table.use player @a[distance=..15] ~ ~ ~ 2 0.5

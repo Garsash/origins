@@ -1,0 +1,1 @@
+playsound minecraft:entity.illusioner.prepare_mirror player @a[distance=..15] ~ ~ ~ 2 1.4

@@ -1,0 +1,2 @@
+execute as @a[scores={origins.trigger.vampire=1..}] run function additional-origins:select/trigger/vampire
+execute as @a[scores={origins.trigger.starborn=1..}] run function additional-origins:select/trigger/starborn

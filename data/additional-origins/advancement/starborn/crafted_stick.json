@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "additional-origins:starborn_stick"
+      }
+    }
+  },
+  "rewards": {
+    "function": "additional-origins:starborn/stick/crafted_stick"
+  }
+}

@@ -1,0 +1,2 @@
+execute if score @s origins.starborn.ability_4_timer matches 1 run function additional-origins:starborn/abilities/ability_4/wormhole/teleport with storage origins temp.pos
+execute if score @s origins.starborn.ability_4_timer matches 1.. run scoreboard players remove @s origins.starborn.ability_4_timer 1

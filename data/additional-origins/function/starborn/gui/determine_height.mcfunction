@@ -1,0 +1,2 @@
+execute anchored eyes positioned ^ ^ ^ if predicate origins:block_in_water run return run function additional-origins:starborn/gui/display_high_gui with entity @e[tag=origins.gui.display_storage,limit=1,sort=nearest,type=marker] data
+function additional-origins:starborn/gui/display_low_gui with entity @e[tag=origins.gui.display_storage,limit=1,sort=nearest,type=marker] data

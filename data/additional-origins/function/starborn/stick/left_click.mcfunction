@@ -1,0 +1,2 @@
+scoreboard players add @s origins.starborn.selected_ability 1
+execute if score @s origins.starborn.selected_ability > @s origins.starborn.max_abilities run scoreboard players set @s origins.starborn.selected_ability 1

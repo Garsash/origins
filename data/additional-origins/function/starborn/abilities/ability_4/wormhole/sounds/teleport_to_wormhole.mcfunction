@@ -1,0 +1,1 @@
+playsound minecraft:block.portal.ambient player @a[distance=..15] ~ ~ ~ 0.5 2

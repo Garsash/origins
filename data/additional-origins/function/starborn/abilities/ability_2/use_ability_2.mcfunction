@@ -1,0 +1,1 @@
+function additional-origins:starborn/abilities/ability_2/dart

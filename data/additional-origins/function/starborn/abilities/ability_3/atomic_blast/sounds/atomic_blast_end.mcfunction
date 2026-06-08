@@ -1,0 +1,1 @@
+playsound minecraft:block.respawn_anchor.deplete player @a[distance=..15] ~ ~ ~ 1 1.2

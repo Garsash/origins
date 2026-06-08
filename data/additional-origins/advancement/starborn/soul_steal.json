@@ -1,0 +1,16 @@
+{
+  "parent": "origins:reset_on_load",
+  "criteria": {
+    "soul_steal": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "team": "Starborn"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "additional-origins:starborn/abilities/ability_4/soul_steal/soul_steal"
+  }
+}

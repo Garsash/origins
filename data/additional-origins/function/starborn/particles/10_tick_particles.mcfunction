@@ -1,0 +1,1 @@
+particle minecraft:wax_off ~ ~0.9 ~ 0.25 0.4 0.25 1 1 normal

@@ -1,0 +1,1 @@
+playsound minecraft:entity.breeze.death player @a[distance=..15] ~ ~ ~ 0.5 0
