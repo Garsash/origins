@@ -16,7 +16,7 @@
       }
     },
     "rewards": {
-      "function": "origins:shulk/effects_init"
+      "function": "origins:shulk/effects"
     }
   }
   
