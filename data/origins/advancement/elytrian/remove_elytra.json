@@ -1,0 +1,42 @@
+{
+  "parent": "origins:reset_on_load",
+  "criteria": {
+    "remove_elytra": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "chest": {
+              "items": "minecraft:elytra",
+              "components": {
+                "minecraft:custom_data": {
+                  "Elytrian": true
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "not_elytrain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "team": "Elytrian"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "origins:elytrian/handle_elytra/remove_elytra"
+  }
+}

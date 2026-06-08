@@ -1,0 +1,1 @@
+return run execute as @e[distance=..10,type=item] if items entity @s container.0 minecraft:elytra[custom_data={Elytrian:1b}] run kill @s

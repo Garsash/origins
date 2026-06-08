@@ -1,0 +1,1 @@
+execute unless score @s origins.cooldown matches 1.. if predicate origins:is_flying run function origins:elytrian/normal_boost/boost
