@@ -1,0 +1,2 @@
+$execute positioned ~$(growx) ~0.25 ~$(growz) if block ~ ~ ~ #origins:plants run return run function origins:florian/plant_check/check
+#execute if score tree origins.tmp matches ..2 run function origins:florian/plant_check/select
