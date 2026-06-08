@@ -1,4 +1,5 @@
 {
+  "parent": "origins:reset_on_load",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:location",
@@ -6,7 +7,6 @@
           "player": [
             {
               "condition": "minecraft:entity_properties",
-              "team": "Blazeborn",
               "entity": "this",
               "predicate": {
                 "team": "Blazeborn",

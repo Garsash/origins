@@ -1,0 +1,82 @@
+{
+  "parent": "origins:reset_on_load",
+  "criteria": {
+    "correct_team": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:any_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "team": "Blazeborn"
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "team": "Enderian-Bedrock"
+                    }
+                  }
+                ]
+              },
+              {
+                "condition": "minecraft:any_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "fluid": {
+                        "fluids": "#minecraft:water"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "blocks": "minecraft:water_cauldron"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "condition": "minecraft:any_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:weather_check",
+                    "raining": true
+                  },
+                  {
+                    "condition": "minecraft:weather_check",
+                    "thundering": true
+                  }
+                ]
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "location": {
+                    "can_see_sky": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "origins:general/water_damage"
+  }
+}
