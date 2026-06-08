@@ -1,2 +1,2 @@
 summon marker ~ ~ ~ {Tags:["spawnpoint"]}
-scoreboard players set $spawnpoint var 1
+scoreboard players set $spawnpoint origins.var 1

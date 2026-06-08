@@ -1,0 +1,10 @@
+{
+    "replace" :false,
+    "values": [
+        "origins:tick/2_tick",
+        "origins:tick/5_tick",
+        "origins:tick/10_tick",
+        "origins:tick/20_tick",
+        "origins:tick/30_tick"
+    ]
+}

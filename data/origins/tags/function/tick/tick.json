@@ -1,0 +1,21 @@
+{
+    "replace" :false,
+    "values": [
+        "origins:enderian-bedrock/enderian",
+        "origins:merling/merling",
+        "origins:phantom/phantom",
+        "origins:feline/feline",
+        "origins:avian/avian",
+        "origins:blazeborn/blazeborn",
+        "origins:arachnid/arachnid",
+        "origins:shulk/shulk",
+        "origins:elytrian/elytrian",
+        "origins:inchling/inchling",
+        "origins:florian/florian",
+        "origins:foxkin/foxkin",
+        "origins:slimeeq/slimeeq",
+        "origins:piglin/piglin",
+        "origins:bumblebee/bumblebee",
+        "origins:inchling/inchling"
+    ]
+}
