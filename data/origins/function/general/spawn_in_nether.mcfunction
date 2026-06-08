@@ -1,0 +1,1 @@
+execute at @e[tag=spawnpoint,type=marker] if entity @s[distance=..80] in minecraft:the_nether run spreadplayers ~ ~ 0 10 under 80 true @s
