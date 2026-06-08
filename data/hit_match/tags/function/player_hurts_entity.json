@@ -1,4 +1,7 @@
 {
   "replace": false,
-  "values": ["origins:hit_detection"]
+  "values": [
+    "origins:hit_detection", 
+    {"id": "additional-origins:hit_detection", "required": false}
+]
 }
