@@ -1,4 +1,5 @@
 {
+  "parent": "origins:reset_on_load",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:tick",
@@ -10,7 +11,7 @@
               "predicate": {
                 "team": "Inchling",
                 "equipment": {
-                  "mainhand": {
+                  "offhand": {
                     "items": "minecraft:sugar"
                   }
                 }
@@ -21,7 +22,7 @@
       }
     },
     "rewards": {
-      "function": "origins:inchling/change_sugar"
+      "function": "origins:inchling/sugar_item/change_sugar_offhand"
     }
   }
   

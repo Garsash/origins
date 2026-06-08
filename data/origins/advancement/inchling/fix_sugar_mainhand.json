@@ -1,4 +1,5 @@
 {
+  "parent": "origins:reset_on_load",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:tick",
@@ -30,7 +31,7 @@
       }
     },
     "rewards": {
-      "function": "origins:inchling/fix_sugar"
+      "function": "origins:inchling/sugar_item/fix_sugar_mainhand"
     }
   }
   

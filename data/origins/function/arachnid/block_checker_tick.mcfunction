@@ -1,2 +1,0 @@
-function origins:arachnid/block_checker_move
-execute run return run execute at @s unless block ~ ~ ~ #origins:no_collision if function #bs.hitbox:is_in_block_collision run function origins:arachnid/block_checker_found

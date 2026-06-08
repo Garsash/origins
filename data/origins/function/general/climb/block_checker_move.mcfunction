@@ -1,0 +1,3 @@
+execute as @a if score @s origins.id = _check origins.id store result storage minecraft:origins general.climb.rotation double 0.1 run scoreboard players get @s origins.y_rotation
+execute unless score $team origins.temp matches 1 run return run function origins:general/climb/block_checker_teleport_macro with storage minecraft:origins general.climb
+function origins:general/climb/block_checker_short_teleport_macro with storage minecraft:origins general.climb

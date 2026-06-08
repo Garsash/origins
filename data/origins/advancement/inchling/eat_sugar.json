@@ -1,0 +1,19 @@
+{
+  "parent": "origins:reset_on_load",
+  "criteria": {
+    "eat_sugar": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "team": "Inchling"
+        },
+        "item": {
+          "items": "minecraft:sugar"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "origins:inchling/sugar_item/eat_sugar"
+  }
+}
