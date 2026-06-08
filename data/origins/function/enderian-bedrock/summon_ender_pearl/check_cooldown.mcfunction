@@ -1,0 +1,2 @@
+advancement revoke @s only origins:enderian-bedrock/pearl
+execute if score @s origins.timeSinceDeath matches 3.. if predicate origins:in_air if score @s origins.cooldown matches ..0 run function origins:enderian-bedrock/summon_ender_pearl/create_pearl

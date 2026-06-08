@@ -1,25 +1,12 @@
-#execute as @e[type=item] if items entity @s container.0 minecraft:poisonous_potato[custom_model_data={floats:[1]}] run kill @s
-
-#execute as @e[type=minecraft:ender_pearl,tag=enderian] unless block ~ ~-0.1 ~ air run function origins:enderian-bedrock/no_fall
-execute at @e[type=minecraft:ender_pearl,tag=enderian] if score @e[type=minecraft:ender_pearl,tag=enderian,limit=1,sort=nearest,distance=..1] id = @s id run function origins:enderian-bedrock/pearl_check
-
-execute as @e[type=ender_pearl,distance=..3] run tag @s add enderian
-scoreboard players operation @e[type=ender_pearl,tag=enderian,limit=1,sort=nearest,distance=..3] id = @s id
-
-execute as @e[type=ender_pearl,distance=..2] run tag @s add enderian
-
-kill @e[type=endermite,distance=..2]
-
-execute if score @s cooldown matches -10.. run scoreboard players remove @s cooldown 1
-function origins:enderian-bedrock/swap_display
-
 execute if score @s origins.timeSinceDeath matches 1..3 run function origins:enderian-bedrock/spawn
 
-function origins:enderian-bedrock/scary
-#execute if entity @e[distance=16..32,type=iron_golem] run function origins:enderian-bedrock/scary
+execute if score @s origins.enderian.used_ender_pearl matches 1.. run function origins:enderian-bedrock/thrown_ender_pearl/thrown_pearl
 
-execute if score @s 2ndcooldown matches -1.. run scoreboard players remove @s 2ndcooldown 1
-execute if score @s 2ndcooldown matches 0 if predicate origins:in_rain run function origins:enderian-bedrock/rain_damage
+execute as @e[tag=origins.enderian.safe_pearl.controller,predicate=!origins:is_rinding_entity,type=marker] at @s run function origins:enderian-bedrock/handle_ender_pearl/handle_pearl_land
 
-# execute if score @s 2ndcooldown matches 0 run function origins:enderian-bedrock/rain_check_start
-scoreboard players add @s cooldown 0
+execute if score @s origins.cooldown matches -10.. run scoreboard players remove @s origins.cooldown 1
+function origins:enderian-bedrock/gui/check_cooldown_display
+
+function origins:enderian-bedrock/scared_of_pumpkins
+
+scoreboard players add @s origins.cooldown 0
