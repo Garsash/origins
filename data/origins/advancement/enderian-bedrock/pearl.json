@@ -1,4 +1,5 @@
 {
+  "parent": "origins:reset_on_load",
 	"criteria": {
 		"requirement": {
 			"trigger": "minecraft:tick",
@@ -24,6 +25,6 @@
 		}
 	},
 	"rewards": {
-		"function": "origins:enderian-bedrock/death_check"
+		"function": "origins:enderian-bedrock/summon_ender_pearl/check_cooldown"
 	}
 }
