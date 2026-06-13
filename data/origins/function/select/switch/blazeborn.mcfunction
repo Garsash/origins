@@ -1,0 +1,1 @@
+execute if entity @s[team=Blazeborn] run function origins:select/remove/blazeborn

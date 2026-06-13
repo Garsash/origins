@@ -1,0 +1,1 @@
+execute if entity @s[team=Vampire] run function additional-origins:select/remove/vampire

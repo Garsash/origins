@@ -1,0 +1,1 @@
+execute if entity @s[team=Enderian-Bedrock] run function origins:select/remove/enderian-bedrock

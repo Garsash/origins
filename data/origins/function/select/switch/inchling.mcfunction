@@ -1,0 +1,1 @@
+execute if entity @s[team=Inchling] run function origins:select/remove/inchling

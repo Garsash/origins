@@ -1,0 +1,1 @@
+execute if entity @s[team=Arachnid] run function origins:select/remove/arachnid

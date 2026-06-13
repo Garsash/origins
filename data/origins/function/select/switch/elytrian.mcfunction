@@ -1,0 +1,1 @@
+execute if entity @s[team=Elytrian] run function origins:select/remove/elytrian

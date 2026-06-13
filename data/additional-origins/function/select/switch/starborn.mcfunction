@@ -1,0 +1,1 @@
+execute if entity @s[team=Starborn] run function additional-origins:select/remove/starborn

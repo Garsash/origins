@@ -1,0 +1,22 @@
+{
+    "replace" :false,
+    "values": [
+        "origins:select/switch/arachnid",
+        "origins:select/switch/avian",
+        "origins:select/switch/blazeborn",
+        "origins:select/switch/bumblebee",
+        "origins:select/switch/elytrian",
+        "origins:select/switch/enderian-bedrock",
+        "origins:select/switch/feline",
+        "origins:select/switch/florian",
+        "origins:select/switch/foxkin",
+        "origins:select/switch/inchling",
+        "origins:select/switch/merling",
+        "origins:select/switch/phantom",
+        "origins:select/switch/piglin",
+        "origins:select/switch/shulk",
+        "origins:select/switch/slimeeq",
+        "additional-origins:select/switch/vampire",
+        "additional-origins:select/switch/starborn"
+    ]
+}

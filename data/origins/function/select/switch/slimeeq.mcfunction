@@ -1,0 +1,1 @@
+execute if entity @s[team=Slimeeq] run function origins:select/remove/slimeeq

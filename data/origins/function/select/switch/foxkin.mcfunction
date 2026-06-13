@@ -1,0 +1,1 @@
+execute if entity @s[team=Foxkin] run function origins:select/remove/foxkin
