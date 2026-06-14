@@ -1,2 +1,2 @@
-scoreboard players reset @a origins.trigger.vampire
-scoreboard players reset @a origins.trigger.starborn
+scoreboard players reset @a vampire
+scoreboard players reset @a starborn

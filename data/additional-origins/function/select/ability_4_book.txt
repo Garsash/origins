@@ -1,0 +1,20 @@
+scoreboard players set @s book 0
+scoreboard players enable @s book
+give @p written_book[written_book_content={title:"",author:"",pages:[
+
+[{"text":"","color":"black"},{"text":"U","font":"orphans:gui","color":"white"},{"text":"Select Ability 4","font":"orphans:invisible","color":"black","bold":true},{"text":"\n","color":"black"},{"text":"- You can change your ability later by crafting this book using Chorus Fruit and Amethyst Crystal.","color":"black"},{"text":"\n\n- When you find the ability you want to pick, press the title / text for that ability and then yes on the warning screen.","color":"black"}],
+
+[{"text":"    ","font":"minecraft:default"},{"text":"[Soul Stealer]","color":"dark_purple","bold":true,"click_event":{"action":"run_command","command":"/function additional-origins:starborn/select/ability_4/soul_stealer"}},{"text":"\nHarvests souls of enemies to reduce stress (activates on kill)","click_event":{"action":"run_command","command":"/function additional-origins:starborn/select/ability_4/soul_stealer"}},
+{"text":"\n\n       ","font":"minecraft:default"},{"text":"[Anomaly]","color":"dark_purple","bold":true,"click_event":{"action":"run_command","command":"/function additional-origins:starborn/select/ability_4/anomaly"}},{"text":"\nCan wall jump (activates on jump)","click_event":{"action":"run_command","command":"/function additional-origins:starborn/select/ability_4/anomaly"}}],
+
+[{"text":"      ","font":"minecraft:default"},{"text":"[Wormhole]","color":"dark_purple","bold":true,"click_event":{"action":"run_command","command":"/function additional-origins:starborn/select/ability_4/wormhole"}},{"text":"\nCreate a wormhole at a point in space which they can later teleport back to","click_event":{"action":"run_command","command":"/function additional-origins:starborn/select/ability_4/wormhole"}},
+{"text":"\n\n   ","font":"minecraft:default"},{"text":"[Ionized Star]","color":"dark_purple","bold":true,"click_event":{"action":"run_command","command":"/function additional-origins:starborn/select/ability_4/ionized_star"}},{"text":"\nWhen someone is launched by the dash ability they are struck by lightning at the top of their arc (activates on dash)","click_event":{"action":"run_command","command":"/function additional-origins:starborn/select/ability_4/ionized_star"}}],
+
+[{"text":"     ","font":"minecraft:default"},{"text":"[Black Hole]","color":"dark_purple","bold":true,"click_event":{"action":"run_command","command":"/function additional-origins:starborn/select/ability_4/black_hole"}},{"text":"\nSummons a black hole which pulls nearby mobs in quickly","click_event":{"action":"run_command","command":"/function additional-origins:starborn/select/ability_4/black_hole"}},
+{"text":"\n\n     ","font":"minecraft:default"},{"text":"[Warp Star]","color":"dark_purple","bold":true,"click_event":{"action":"run_command","command":"/function additional-origins:starborn/select/ability_4/warp_star"}},{"text":"\nTurns into a star for a time which can fly through the air with ease (acts like elytra with a boost on W)","click_event":{"action":"run_command","command":"/function additional-origins:starborn/select/ability_4/warp_star"}}
+],
+
+[{"text":"    ","font":"minecraft:default"},{"text":"[Star Sniper]","color":"dark_purple","bold":true,"click_event":{"action":"run_command","command":"/function additional-origins:starborn/select/ability_4/star_sniper"}},{"text":"\nTurns the dart into a sniper with high damage and cooldown (activates on dart)","click_event":{"action":"run_command","command":"/function additional-origins:starborn/select/ability_4/star_sniper"}}
+]
+
+]},custom_data={origins:1b,starborn_ability:4},custom_name={"bold":true,"color":"gold","italic":false,"text":"Select Ability 4"}] 1

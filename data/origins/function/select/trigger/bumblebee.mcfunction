@@ -1,3 +1,3 @@
-scoreboard players set @s origins.trigger.bumblebee 0
-scoreboard players enable @s origins.trigger.bumblebee
+scoreboard players set @s bumblebee 0
+scoreboard players enable @s bumblebee
 function origins:select/bumblebee

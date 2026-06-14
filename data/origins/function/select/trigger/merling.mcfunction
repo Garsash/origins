@@ -1,3 +1,3 @@
-scoreboard players set @s origins.trigger.merling 0
-scoreboard players enable @s origins.trigger.merling
+scoreboard players set @s merling 0
+scoreboard players enable @s merling
 function origins:select/merling

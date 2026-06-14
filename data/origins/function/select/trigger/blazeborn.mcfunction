@@ -1,3 +1,3 @@
-scoreboard players set @s origins.trigger.blazeborn 0
-scoreboard players enable @s origins.trigger.blazeborn
+scoreboard players set @s blazeborn 0
+scoreboard players enable @s blazeborn
 function origins:select/blazeborn

@@ -1,3 +1,3 @@
-scoreboard players set @s origins.trigger.arachnid 0
-scoreboard players enable @s origins.trigger.arachnid
+scoreboard players set @s arachnid 0
+scoreboard players enable @s arachnid
 function origins:select/arachnid

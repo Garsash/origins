@@ -1,2 +1,2 @@
-scoreboard players enable @a origins.trigger.vampire
-scoreboard players enable @a origins.trigger.starborn
+scoreboard players enable @a vampire
+scoreboard players enable @a starborn

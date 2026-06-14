@@ -1,0 +1,20 @@
+scoreboard players set @s book 0
+scoreboard players enable @s book
+give @p written_book[written_book_content={title:"",author:"",pages:[
+
+[{"text":"","color":"black"},{"text":"T","font":"orphans:gui","color":"white"},{"text":"Select Ability 3","font":"orphans:invisible","color":"black","bold":true},{"text":"\n","color":"black"},{"text":"- You can change your ability later by crafting this book using Blaze Powder and Amethyst Crystal.","color":"black"},{"text":"\n\n- When you find the ability you want to pick, press the title / text for that ability and then yes on the warning screen.","color":"black"}],
+
+[{"text":"        ","font":"minecraft:default"},{"text":"[Shield]","color":"dark_purple","bold":true,"click_event":{"action":"run_command","command":"/function additional-origins:starborn/select/ability_3/shield"}},{"text":"\nGains damage resistance for a short time","click_event":{"action":"run_command","command":"/function additional-origins:starborn/select/ability_3/shield"}},
+{"text":"\n\n     ","font":"minecraft:default"},{"text":"[Star Dash]","color":"dark_purple","bold":true,"click_event":{"action":"run_command","command":"/function additional-origins:starborn/select/ability_3/star_dash"}},{"text":"\nGains immense speed for a short time and stuns mobs in their path","click_event":{"action":"run_command","command":"/function additional-origins:starborn/select/ability_3/star_dash"}}],
+
+[{"text":"   ","font":"minecraft:default"},{"text":"[Stellar Strike]","color":"dark_purple","bold":true,"click_event":{"action":"run_command","command":"/function additional-origins:starborn/select/ability_3/stellar_strike"}},{"text":"\nCreates a point of energy on the floor where they're looking which explodes after a short delay","click_event":{"action":"run_command","command":"/function additional-origins:starborn/select/ability_3/stellar_strike"}},
+{"text":"\n\n    ","font":"minecraft:default"},{"text":"[Atomic Blast]","color":"dark_purple","bold":true,"click_event":{"action":"run_command","command":"/function additional-origins:starborn/select/ability_3/atomic_blast"}},{"text":"\nCharges for a short time then explodes with energy launching nearby mobs backward","click_event":{"action":"run_command","command":"/function additional-origins:starborn/select/ability_3/atomic_blast"}}],
+
+[{"text":"   ","font":"minecraft:default"},{"text":"[Cosmic Flares]","color":"dark_purple","bold":true,"click_event":{"action":"run_command","command":"/function additional-origins:starborn/select/ability_3/cosmic_flare"}},{"text":"\nFires a barrage of flaming stars which can pierce walls and ignite enemies","click_event":{"action":"run_command","command":"/function additional-origins:starborn/select/ability_3/cosmic_flare"}},
+{"text":"\n\n ","font":"minecraft:default"},{"text":"[Stellar Reminder]","color":"dark_purple","bold":true,"click_event":{"action":"run_command","command":"/function additional-origins:starborn/select/ability_3/stellar_reminder"}},{"text":"\nAfter hitting a mob and a short delay a falling star will come down and strike them for extra damage (activates on hit)","click_event":{"action":"run_command","command":"/function additional-origins:starborn/select/ability_3/stellar_reminder"}}
+],
+
+[{"text":"  ","font":"minecraft:default"},{"text":"[Gravity Sphere]","color":"dark_purple","bold":true,"click_event":{"action":"run_command","command":"/function additional-origins:starborn/select/ability_3/gravity_sphere"}},{"text":"\nCreates a sphere of energy which makes mobs float","click_event":{"action":"run_command","command":"/function additional-origins:starborn/select/ability_3/gravity_sphere"}}
+]
+
+]},custom_data={origins:1b,starborn_ability:3},custom_name={"bold":true,"color":"gold","italic":false,"text":"Select Ability 3"}] 1

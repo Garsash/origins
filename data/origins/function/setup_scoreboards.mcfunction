@@ -28,24 +28,26 @@ scoreboard objectives add origins.phantom.fire dummy
 scoreboard objectives add origins.merling.drown dummy
 scoreboard objectives add origins.enderian.used_ender_pearl minecraft.used:ender_pearl
 
-scoreboard objectives add origins.trigger.avian trigger
-scoreboard objectives add origins.trigger.arachnid trigger
-scoreboard objectives add origins.trigger.foxkin trigger
-scoreboard objectives add origins.trigger.slimeeq trigger
-scoreboard objectives add origins.trigger.elytrian trigger
-scoreboard objectives add origins.trigger.shulk trigger
-scoreboard objectives add origins.trigger.feline trigger
-scoreboard objectives add origins.trigger.florian trigger
-scoreboard objectives add origins.trigger.enderian trigger
-scoreboard objectives add origins.trigger.bumblebee trigger
-scoreboard objectives add origins.trigger.merling trigger
-scoreboard objectives add origins.trigger.inchling trigger
-scoreboard objectives add origins.trigger.piglin trigger
-scoreboard objectives add origins.trigger.blazeborn trigger
-scoreboard objectives add origins.trigger.phantom trigger
-scoreboard objectives add origins.trigger.book trigger
-scoreboard objectives add origins.trigger.config trigger
-scoreboard objectives add origins.trigger.backup_shulker_box trigger
+scoreboard objectives add avian trigger
+scoreboard objectives add arachnid trigger
+scoreboard objectives add foxkin trigger
+scoreboard objectives add slimeeq trigger
+scoreboard objectives add elytrian trigger
+scoreboard objectives add shulk trigger
+scoreboard objectives add feline trigger
+scoreboard objectives add florian trigger
+scoreboard objectives add enderian trigger
+scoreboard objectives add bumblebee trigger
+scoreboard objectives add merling trigger
+scoreboard objectives add inchling trigger
+scoreboard objectives add piglin trigger
+scoreboard objectives add blazeborn trigger
+scoreboard objectives add phantom trigger
+scoreboard objectives add book trigger
+scoreboard objectives add bedrock trigger
+scoreboard objectives add java trigger
+scoreboard objectives add config trigger
+scoreboard objectives add backup_shulker_box trigger
 
 scoreboard objectives add origins.numbers dummy
 scoreboard players set 20 origins.numbers 20

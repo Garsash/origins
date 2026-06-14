@@ -1,5 +1,5 @@
-scoreboard players set @s origins.trigger.book 0
-scoreboard players enable @s origins.trigger.book
+scoreboard players set @s book 0
+scoreboard players enable @s book
 give @p written_book[written_book_content={title:"",author:"",pages:[
 
 [{"text":"","color":"black"},{"text":"Q","font":"orphans:gui","color":"white"},{"text":"Book of Origins","font":"orphans:invisible","color":"black","bold":true},{"text":"\n\n","color":"black"},{"text":"- When you find the origin you want to use, press the ","color":"black"},{"text":"[Select] ","color":"gold","bold":true},{"text":"button and then yes on the warning screen.\n\n- Some origins which have the "},{"text":"[Shift]","color":"blue","bold":true,"hover_event":{"action":"show_text","value":[{"text":"(like this)"}]}},{"text":" tag require more info, hover to reveal it.","color":"black"}],

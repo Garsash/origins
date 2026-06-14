@@ -4,5 +4,5 @@ tellraw @s {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"}
 execute as @s[team=Bumblebee] run function origins:bumblebee/config
 execute as @s[team=Merling] run function origins:merling/config
 
-scoreboard players set @s origins.trigger.config 0
-scoreboard players enable @s origins.trigger.config
+scoreboard players set @s config 0
+scoreboard players enable @s config

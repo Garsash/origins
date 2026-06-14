@@ -1,2 +1,2 @@
-scoreboard players set @s origins.trigger.starborn 0
+scoreboard players set @s starborn 0
 function additional-origins:select/starborn

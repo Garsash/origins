@@ -5,6 +5,8 @@ function origins:select/trigger/handle_triggers
 execute if score triggers origins.settings matches 0 run function origins:select/trigger/hide
 execute if score triggers origins.settings matches 1 run function origins:select/trigger/show
 
+function origins:select/always_show
+
 #execute as @a run scoreboard players operation @s deathTimeDisplay = @s origins.timeSinceDeath
 #execute as @a run scoreboard players operation @s deathTimeDisplay /= 20 numbers
 

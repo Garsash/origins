@@ -1,5 +1,5 @@
-scoreboard objectives add origins.trigger.vampire trigger
-scoreboard objectives add origins.trigger.starborn trigger
+scoreboard objectives add vampire trigger
+scoreboard objectives add starborn trigger
 
 scoreboard objectives add origins.motion.x dummy
 scoreboard objectives add origins.motion.y dummy

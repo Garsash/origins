@@ -1,3 +1,3 @@
-scoreboard players set @s origins.trigger.phantom 0
-scoreboard players enable @s origins.trigger.phantom
+scoreboard players set @s phantom 0
+scoreboard players enable @s phantom
 function origins:select/phantom
