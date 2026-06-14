@@ -26,5 +26,6 @@ There is an array of 17 origins to choose from (including the 9 originals), show
 - [Bookshelf Library](https://github.com/mcbookshelf/Bookshelf)
 - [Player Motion Library](https://modrinth.com/datapack/player_motion)
 - [Hit Match](https://github.com/picarrow/hit-match)
+- [Name Lib](https://modrinth.com/datapack/name-lib/versions)
 - [Vampire Origin](https://modrinth.com/datapack/origins-vampire)
 - [Starborn Origin](https://www.curseforge.com/minecraft/customization/origins-starborne)

@@ -8,3 +8,5 @@ scoreboard players enable @a backup_shulker_box
 scoreboard players set @s origins.settings.bedrock 0
 
 execute unless score @s origins.id matches 1.. run function origins:int_id
+
+function origins:bedrock_test with storage origins

@@ -8,3 +8,5 @@ advancement revoke @a from origins:reset_on_load
 function #origins:setup
 
 execute unless entity 00000005-0000-0003-0000-000200000000 run summon minecraft:item_display 0 -64 0 {UUID:[I;5,3,2,0]}
+
+execute unless data storage origins bedrock_char run data merge storage origins {bedrock_char:"."}
