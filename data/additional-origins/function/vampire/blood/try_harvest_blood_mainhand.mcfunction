@@ -1,0 +1,3 @@
+execute if items entity @a[predicate=hit_match:is_source,limit=1] weapon.mainhand glass_bottle[count=1] run return run loot replace entity @a[predicate=hit_match:is_source,limit=1] weapon.mainhand loot additional-origins:generate_blood_potion
+loot give @a[predicate=hit_match:is_source,limit=1] loot additional-origins:generate_blood_potion
+item modify entity @a[predicate=hit_match:is_source,limit=1] weapon.mainhand additional-origins:remove_item
