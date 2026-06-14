@@ -1,0 +1,1 @@
+execute unless predicate origins:natural_slow_falling run effect give @s slow_falling 1 255 true

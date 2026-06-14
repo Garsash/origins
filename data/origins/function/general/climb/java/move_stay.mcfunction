@@ -1,0 +1,1 @@
+attribute @s minecraft:gravity modifier add origins.general.climb_gravity_modifier -1 add_multiplied_base

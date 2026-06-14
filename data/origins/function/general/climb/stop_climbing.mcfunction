@@ -1,2 +1,2 @@
-attribute @s gravity modifier remove origins.general.climb_gravity_modifier
-attribute @s minecraft:fall_damage_multiplier modifier remove origins:climb_fall_damage
+execute unless score @s origins.settings.bedrock matches 1 run function origins:general/climb/java/stop_climbing
+execute if score @s origins.settings.bedrock matches 1 run function origins:general/climb/bedrock/stop_climbing

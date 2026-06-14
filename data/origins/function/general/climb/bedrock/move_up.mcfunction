@@ -1,0 +1,1 @@
+execute unless predicate origins:natural_levitation run effect give @s levitation 1 0 true

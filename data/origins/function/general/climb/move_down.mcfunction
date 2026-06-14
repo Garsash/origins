@@ -1,1 +1,2 @@
-attribute @s minecraft:gravity modifier add origins.general.climb_gravity_modifier -0.9 add_multiplied_base
+execute unless score @s origins.settings.bedrock matches 1 run function origins:general/climb/java/move_down
+execute if score @s origins.settings.bedrock matches 1 run function origins:general/climb/bedrock/move_down
