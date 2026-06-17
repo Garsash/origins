@@ -9,5 +9,7 @@ execute if score @s origins.hunger matches 14.. run effect give @s strength 2 0 
 execute if score @s origins.hunger matches 14.. if function additional-origins:vampire/try_give_positive_effects run effect give @s absorption 2 0 true
 execute if score @s origins.hunger matches 17.. run effect give @s strength 2 1 true
 
+effect clear @s poison
+
 function additional-origins:vampire/forms/try_switch
 function additional-origins:vampire/forms/is_bat
