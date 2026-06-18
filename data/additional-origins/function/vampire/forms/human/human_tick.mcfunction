@@ -1,2 +1,2 @@
-execute unless predicate additional-origins:has_extra_health run return run title @s actionbar {"text":",.","font":"orphans:vampire_hotbar","color":"black"}
-title @s actionbar {"text":",.","font":"orphans:vampire_hotbar_lower","color":"black"}
+# execute unless predicate additional-origins:has_extra_health run return run title @s actionbar {"text":",.","font":"orphans:vampire_hotbar","color":"black"}
+title @s actionbar {"text":",.","font":"orphans:vampire_hotbar","color":"black"}
