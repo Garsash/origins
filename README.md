@@ -2,7 +2,7 @@
 
 ## **Download**
 
-The datapack is availabel at [Vanilla Origins](https://modrinth.com/datapack/vanilla-origins) on Modrinth.
+The datapack is available at [Vanilla Origins](https://modrinth.com/datapack/vanilla-origins) on Modrinth.
 
 ## **Description**
 
