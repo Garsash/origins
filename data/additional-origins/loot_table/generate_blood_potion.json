@@ -1,470 +1,465 @@
 {
-  "type": "minecraft:command",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:potion"
-        }
-      ]
-    }
-  ],
-  "functions": [
-    {
-      "function": "minecraft:set_components",
-      "components": {
-        "minecraft:custom_data": {
-          "BloodQuality": "Average"
-        },
-        "minecraft:food": {
-          "nutrition": 4,
-          "saturation": 0,
-          "can_always_eat": true
-        },
-        "minecraft:consumable": {
-          "animation": "drink",
-          "sound": "minecraft:entity.generic.drink",
-          "has_consume_particles": false
-        },
-        "minecraft:potion_contents": {
-          "custom_color": 10820909,
-          "custom_name": "Average",
-          "custom_effects": []
-        },
-        "minecraft:custom_name": {
-          "text": "Blood Bottle",
-          "italic": false
-        },
-        "minecraft:lore": [
-          "Average"
-        ],
-        "minecraft:tooltip_display": {
-          "hide_tooltip": false,
-          "hidden_components": [
-            "minecraft:potion_contents"
-          ]
-        }
-      },
-      "conditions": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type": "#additional-origins:average_blood"
-          }
-        }
-      ]
-    },
-    {
-      "function": "minecraft:set_components",
-      "components": {
-        "minecraft:custom_data": {
-          "BloodQuality": "Excellent"
-        },
-        "minecraft:food": {
-          "nutrition": 8,
-          "saturation": 0,
-          "can_always_eat": true
-        },
-        "minecraft:consumable": {
-          "animation": "drink",
-          "sound": "minecraft:entity.generic.drink",
-          "has_consume_particles": false
-        },
-        "minecraft:potion_contents": {
-          "custom_color": 10820909,
-          "custom_name": "Excellent",
-          "custom_effects": []
-        },
-        "minecraft:custom_name": {
-          "text": "Blood Bottle",
-          "italic": false
-        },
-        "minecraft:lore": [
-          "Excellent"
-        ],
-        "minecraft:tooltip_display": {
-          "hide_tooltip": false,
-          "hidden_components": [
-            "minecraft:potion_contents"
-          ]
-        }
-      },
-      "conditions": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type": "#additional-origins:excellent_blood"
-          }
-        }
-      ]
-    },
-    {
-      "function": "minecraft:set_components",
-      "components": {
-        "minecraft:custom_data": {
-          "BloodQuality": "Explosive"
-        },
-        "minecraft:food": {
-          "nutrition": 6,
-          "saturation": 0,
-          "can_always_eat": true
-        },
-        "minecraft:consumable": {
-          "animation": "drink",
-          "sound": "minecraft:entity.generic.drink",
-          "has_consume_particles": false
-        },
-        "minecraft:potion_contents": {
-          "custom_color": 10820909,
-          "custom_name": "Explosive",
-          "custom_effects": []
-        },
-        "minecraft:custom_name": {
-          "text": "Blood Bottle",
-          "italic": false
-        },
-        "minecraft:lore": [
-          "Explosive"
-        ],
-        "minecraft:tooltip_display": {
-          "hide_tooltip": false,
-          "hidden_components": [
-            "minecraft:potion_contents"
-          ]
-        }
-      },
-      "conditions": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type": "#additional-origins:explosive_blood"
-          }
-        }
-      ]
-    },
-
-    {
-      "function": "minecraft:set_components",
-      "components": {
-        "minecraft:custom_data": {
-          "BloodQuality": "Magical"
-        },
-        "minecraft:food": {
-          "nutrition": 8,
-          "saturation": 0,
-          "can_always_eat": true
-        },
-        "minecraft:consumable": {
-          "animation": "drink",
-          "sound": "minecraft:entity.generic.drink",
-          "has_consume_particles": false
-        },
-        "minecraft:potion_contents": {
-          "custom_color": 10820909,
-          "custom_name": "Magical",
-          "custom_effects": [
-            {
-              "id": "minecraft:speed",
-              "amplifier": 0,
-              "duration": 1200
-            },
-            {
-              "id": "minecraft:absorption",
-              "amplifier": 0,
-              "duration": 1200
-            }
-          ]
-        },
-        "minecraft:custom_name": {
-          "text": "Blood Bottle",
-          "italic": false
-        },
-        "minecraft:lore": [
-          "Magical"
-        ],
-        "minecraft:tooltip_display": {
-          "hide_tooltip": false,
-          "hidden_components": [
-            "minecraft:potion_contents"
-          ]
-        }
-      },
-      "conditions": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type": "#additional-origins:magical_blood"
-          }
-        }
-      ]
-    },
-    {
-      "function": "minecraft:set_components",
-      "components": {
-        "minecraft:custom_data": {
-          "BloodQuality": "Otherworldly"
-        },
-        "minecraft:food": {
-          "nutrition": 6,
-          "saturation": 0,
-          "can_always_eat": true
-        },
-        "minecraft:consumable": {
-          "animation": "drink",
-          "sound": "minecraft:entity.generic.drink",
-          "has_consume_particles": false,
-          "on_consume_effects": [
-            {
-              "type": "minecraft:teleport_randomly"
-            }
-          ]
-        },
-        "minecraft:potion_contents": {
-          "custom_color": 10820909,
-          "custom_name": "Otherworldly",
-          "custom_effects": []
-        },
-        "minecraft:custom_name": {
-          "text": "Blood Bottle",
-          "italic": false
-        },
-        "minecraft:lore": [
-          "Otherworldly"
-        ],
-        "minecraft:tooltip_display": {
-          "hide_tooltip": false,
-          "hidden_components": [
-            "minecraft:potion_contents"
-          ]
-        }
-      },
-      "conditions": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type": "#additional-origins:otherworldly_blood"
-          }
-        }
-      ]
-    },
-
-    {
-      "function": "minecraft:set_components",
-      "components": {
-        "minecraft:custom_data": {
-          "BloodQuality": "Rotten"
-        },
-        "minecraft:food": {
-          "nutrition": 2,
-          "saturation": 0,
-          "can_always_eat": true
-        },
-        "minecraft:consumable": {
-          "animation": "drink",
-          "sound": "minecraft:entity.generic.drink",
-          "has_consume_particles": false
-        },
-        "minecraft:potion_contents": {
-          "custom_color": 10820909,
-          "custom_name": "Rotten",
-          "custom_effects": [
-            {
-              "id": "minecraft:hunger",
-              "amplifier": 0,
-              "duration": 200
-            }
-          ]
-        },
-        "minecraft:custom_name": {
-          "text": "Blood Bottle",
-          "italic": false
-        },
-        "minecraft:lore": [
-          "Rotten"
-        ],
-        "minecraft:tooltip_display": {
-          "hide_tooltip": false,
-          "hidden_components": [
-            "minecraft:potion_contents"
-          ]
-        }
-      },
-      "conditions": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type": "#additional-origins:rotten_blood"
-          }
-        }
-      ]
-    },
-
-    {
-      "function": "minecraft:set_components",
-      "components": {
-        "minecraft:custom_data": {
-          "BloodQuality": "Sizzling"
-        },
-        "minecraft:food": {
-          "nutrition": 4,
-          "saturation": 0,
-          "can_always_eat": true
-        },
-        "minecraft:consumable": {
-          "animation": "drink",
-          "sound": "minecraft:entity.generic.drink",
-          "has_consume_particles": false
-        },
-        "minecraft:potion_contents": {
-          "custom_color": 10820909,
-          "custom_name": "Sizzling",
-          "custom_effects": []
-        },
-        "minecraft:custom_name": {
-          "text": "Blood Bottle",
-          "italic": false
-        },
-        "minecraft:lore": [
-          "Sizzling"
-        ],
-        "minecraft:tooltip_display": {
-          "hide_tooltip": false,
-          "hidden_components": [
-            "minecraft:potion_contents"
-          ]
-        }
-      },
-      "conditions": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type": "#additional-origins:sizzling_blood"
-          }
-        }
-      ]
-    },
-
-    {
-      "function": "minecraft:set_components",
-      "components": {
-        "minecraft:custom_data": {
-          "BloodQuality": "Slimey"
-        },
-        "minecraft:food": {
-          "nutrition": 2,
-          "saturation": 0,
-          "can_always_eat": true
-        },
-        "minecraft:consumable": {
-          "animation": "drink",
-          "sound": "minecraft:entity.generic.drink",
-          "has_consume_particles": false
-        },
-        "minecraft:potion_contents": {
-          "custom_color": 10820909,
-          "custom_name": "Slimey",
-          "custom_effects": [
-            {
-              "id": "minecraft:slowness",
-              "amplifier": 2,
-              "duration": 1200
-            },
-            {
-              "id": "minecraft:jump_boost",
-              "amplifier": 3,
-              "duration": 1200
-            }
-          ]
-        },
-        "minecraft:custom_name": {
-          "text": "Blood Bottle",
-          "italic": false
-        },
-        "minecraft:lore": [
-          "Slimey"
-        ],
-        "minecraft:tooltip_display": {
-          "hide_tooltip": false,
-          "hidden_components": [
-            "minecraft:potion_contents"
-          ]
-        }
-      },
-      "conditions": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type": "#additional-origins:slimey_blood"
-          }
-        }
-      ]
-    },
-
-    {
-      "function": "minecraft:set_components",
-      "components": {
-        "minecraft:custom_data": {
-          "BloodQuality": "Toxic"
-        },
-        "minecraft:food": {
-          "nutrition": 2,
-          "saturation": 0,
-          "can_always_eat": true
-        },
-        "minecraft:consumable": {
-          "animation": "drink",
-          "sound": "minecraft:entity.generic.drink",
-          "has_consume_particles": false
-        },
-        "minecraft:potion_contents": {
-          "custom_color": 10820909,
-          "custom_name": "Toxic",
-          "custom_effects": [
-            {
-              "id": "minecraft:nausea",
-              "amplifier": 1,
-              "duration": 400
-            },
-            {
-              "id": "minecraft:slowness",
-              "amplifier": 0,
-              "duration": 1200
-            }
-          ]
-        },
-        "minecraft:custom_name": {
-          "text": "Blood Bottle",
-          "italic": false
-        },
-        "minecraft:lore": [
-          "Toxic"
-        ],
-        "minecraft:tooltip_display": {
-          "hide_tooltip": false,
-          "hidden_components": [
-            "minecraft:potion_contents"
-          ]
-        }
-      },
-      "conditions": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type": "#additional-origins:toxic_blood"
-          }
-        }
-      ]
-    }
-  ]
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potion"
+				}
+			]
+		}
+	],
+	"functions": [
+		{
+			"function": "minecraft:set_components",
+			"components": {
+				"minecraft:custom_data": {
+					"BloodQuality": "Average"
+				},
+				"minecraft:food": {
+					"nutrition": 4,
+					"saturation": 0,
+					"can_always_eat": true
+				},
+				"minecraft:consumable": {
+					"animation": "drink",
+					"sound": "minecraft:entity.generic.drink",
+					"has_consume_particles": false
+				},
+				"minecraft:potion_contents": {
+					"custom_color": 10820909,
+					"custom_name": "Average",
+					"custom_effects": []
+				},
+				"minecraft:custom_name": {
+					"text": "Blood Bottle",
+					"italic": false
+				},
+				"minecraft:lore": [
+					"Average"
+				],
+				"minecraft:tooltip_display": {
+					"hide_tooltip": false,
+					"hidden_components": [
+						"minecraft:potion_contents"
+					]
+				}
+			},
+			"conditions": [
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "#additional-origins:average_blood"
+					}
+				}
+			]
+		},
+		{
+			"function": "minecraft:set_components",
+			"components": {
+				"minecraft:custom_data": {
+					"BloodQuality": "Excellent"
+				},
+				"minecraft:food": {
+					"nutrition": 8,
+					"saturation": 0,
+					"can_always_eat": true
+				},
+				"minecraft:consumable": {
+					"animation": "drink",
+					"sound": "minecraft:entity.generic.drink",
+					"has_consume_particles": false
+				},
+				"minecraft:potion_contents": {
+					"custom_color": 10820909,
+					"custom_name": "Excellent",
+					"custom_effects": []
+				},
+				"minecraft:custom_name": {
+					"text": "Blood Bottle",
+					"italic": false
+				},
+				"minecraft:lore": [
+					"Excellent"
+				],
+				"minecraft:tooltip_display": {
+					"hide_tooltip": false,
+					"hidden_components": [
+						"minecraft:potion_contents"
+					]
+				}
+			},
+			"conditions": [
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "#additional-origins:excellent_blood"
+					}
+				}
+			]
+		},
+		{
+			"function": "minecraft:set_components",
+			"components": {
+				"minecraft:custom_data": {
+					"BloodQuality": "Explosive"
+				},
+				"minecraft:food": {
+					"nutrition": 6,
+					"saturation": 0,
+					"can_always_eat": true
+				},
+				"minecraft:consumable": {
+					"animation": "drink",
+					"sound": "minecraft:entity.generic.drink",
+					"has_consume_particles": false
+				},
+				"minecraft:potion_contents": {
+					"custom_color": 10820909,
+					"custom_name": "Explosive",
+					"custom_effects": []
+				},
+				"minecraft:custom_name": {
+					"text": "Blood Bottle",
+					"italic": false
+				},
+				"minecraft:lore": [
+					"Explosive"
+				],
+				"minecraft:tooltip_display": {
+					"hide_tooltip": false,
+					"hidden_components": [
+						"minecraft:potion_contents"
+					]
+				}
+			},
+			"conditions": [
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "#additional-origins:explosive_blood"
+					}
+				}
+			]
+		},
+		{
+			"function": "minecraft:set_components",
+			"components": {
+				"minecraft:custom_data": {
+					"BloodQuality": "Magical"
+				},
+				"minecraft:food": {
+					"nutrition": 8,
+					"saturation": 0,
+					"can_always_eat": true
+				},
+				"minecraft:consumable": {
+					"animation": "drink",
+					"sound": "minecraft:entity.generic.drink",
+					"has_consume_particles": false
+				},
+				"minecraft:potion_contents": {
+					"custom_color": 10820909,
+					"custom_name": "Magical",
+					"custom_effects": [
+						{
+							"id": "minecraft:speed",
+							"amplifier": 0,
+							"duration": 1200
+						},
+						{
+							"id": "minecraft:absorption",
+							"amplifier": 0,
+							"duration": 1200
+						}
+					]
+				},
+				"minecraft:custom_name": {
+					"text": "Blood Bottle",
+					"italic": false
+				},
+				"minecraft:lore": [
+					"Magical"
+				],
+				"minecraft:tooltip_display": {
+					"hide_tooltip": false,
+					"hidden_components": [
+						"minecraft:potion_contents"
+					]
+				}
+			},
+			"conditions": [
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "#additional-origins:magical_blood"
+					}
+				}
+			]
+		},
+		{
+			"function": "minecraft:set_components",
+			"components": {
+				"minecraft:custom_data": {
+					"BloodQuality": "Otherworldly"
+				},
+				"minecraft:food": {
+					"nutrition": 6,
+					"saturation": 0,
+					"can_always_eat": true
+				},
+				"minecraft:consumable": {
+					"animation": "drink",
+					"sound": "minecraft:entity.generic.drink",
+					"has_consume_particles": false,
+					"on_consume_effects": [
+						{
+							"type": "minecraft:teleport_randomly"
+						}
+					]
+				},
+				"minecraft:potion_contents": {
+					"custom_color": 10820909,
+					"custom_name": "Otherworldly",
+					"custom_effects": []
+				},
+				"minecraft:custom_name": {
+					"text": "Blood Bottle",
+					"italic": false
+				},
+				"minecraft:lore": [
+					"Otherworldly"
+				],
+				"minecraft:tooltip_display": {
+					"hide_tooltip": false,
+					"hidden_components": [
+						"minecraft:potion_contents"
+					]
+				}
+			},
+			"conditions": [
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "#additional-origins:otherworldly_blood"
+					}
+				}
+			]
+		},
+		{
+			"function": "minecraft:set_components",
+			"components": {
+				"minecraft:custom_data": {
+					"BloodQuality": "Rotten"
+				},
+				"minecraft:food": {
+					"nutrition": 2,
+					"saturation": 0,
+					"can_always_eat": true
+				},
+				"minecraft:consumable": {
+					"animation": "drink",
+					"sound": "minecraft:entity.generic.drink",
+					"has_consume_particles": false
+				},
+				"minecraft:potion_contents": {
+					"custom_color": 10820909,
+					"custom_name": "Rotten",
+					"custom_effects": [
+						{
+							"id": "minecraft:hunger",
+							"amplifier": 0,
+							"duration": 200
+						}
+					]
+				},
+				"minecraft:custom_name": {
+					"text": "Blood Bottle",
+					"italic": false
+				},
+				"minecraft:lore": [
+					"Rotten"
+				],
+				"minecraft:tooltip_display": {
+					"hide_tooltip": false,
+					"hidden_components": [
+						"minecraft:potion_contents"
+					]
+				}
+			},
+			"conditions": [
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "#additional-origins:rotten_blood"
+					}
+				}
+			]
+		},
+		{
+			"function": "minecraft:set_components",
+			"components": {
+				"minecraft:custom_data": {
+					"BloodQuality": "Sizzling"
+				},
+				"minecraft:food": {
+					"nutrition": 4,
+					"saturation": 0,
+					"can_always_eat": true
+				},
+				"minecraft:consumable": {
+					"animation": "drink",
+					"sound": "minecraft:entity.generic.drink",
+					"has_consume_particles": false
+				},
+				"minecraft:potion_contents": {
+					"custom_color": 10820909,
+					"custom_name": "Sizzling",
+					"custom_effects": []
+				},
+				"minecraft:custom_name": {
+					"text": "Blood Bottle",
+					"italic": false
+				},
+				"minecraft:lore": [
+					"Sizzling"
+				],
+				"minecraft:tooltip_display": {
+					"hide_tooltip": false,
+					"hidden_components": [
+						"minecraft:potion_contents"
+					]
+				}
+			},
+			"conditions": [
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "#additional-origins:sizzling_blood"
+					}
+				}
+			]
+		},
+		{
+			"function": "minecraft:set_components",
+			"components": {
+				"minecraft:custom_data": {
+					"BloodQuality": "Slimey"
+				},
+				"minecraft:food": {
+					"nutrition": 2,
+					"saturation": 0,
+					"can_always_eat": true
+				},
+				"minecraft:consumable": {
+					"animation": "drink",
+					"sound": "minecraft:entity.generic.drink",
+					"has_consume_particles": false
+				},
+				"minecraft:potion_contents": {
+					"custom_color": 10820909,
+					"custom_name": "Slimey",
+					"custom_effects": [
+						{
+							"id": "minecraft:slowness",
+							"amplifier": 2,
+							"duration": 1200
+						},
+						{
+							"id": "minecraft:jump_boost",
+							"amplifier": 3,
+							"duration": 1200
+						}
+					]
+				},
+				"minecraft:custom_name": {
+					"text": "Blood Bottle",
+					"italic": false
+				},
+				"minecraft:lore": [
+					"Slimey"
+				],
+				"minecraft:tooltip_display": {
+					"hide_tooltip": false,
+					"hidden_components": [
+						"minecraft:potion_contents"
+					]
+				}
+			},
+			"conditions": [
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "#additional-origins:slimey_blood"
+					}
+				}
+			]
+		},
+		{
+			"function": "minecraft:set_components",
+			"components": {
+				"minecraft:custom_data": {
+					"BloodQuality": "Toxic"
+				},
+				"minecraft:food": {
+					"nutrition": 2,
+					"saturation": 0,
+					"can_always_eat": true
+				},
+				"minecraft:consumable": {
+					"animation": "drink",
+					"sound": "minecraft:entity.generic.drink",
+					"has_consume_particles": false
+				},
+				"minecraft:potion_contents": {
+					"custom_color": 10820909,
+					"custom_name": "Toxic",
+					"custom_effects": [
+						{
+							"id": "minecraft:nausea",
+							"amplifier": 1,
+							"duration": 400
+						},
+						{
+							"id": "minecraft:slowness",
+							"amplifier": 0,
+							"duration": 1200
+						}
+					]
+				},
+				"minecraft:custom_name": {
+					"text": "Blood Bottle",
+					"italic": false
+				},
+				"minecraft:lore": [
+					"Toxic"
+				],
+				"minecraft:tooltip_display": {
+					"hide_tooltip": false,
+					"hidden_components": [
+						"minecraft:potion_contents"
+					]
+				}
+			},
+			"conditions": [
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "#additional-origins:toxic_blood"
+					}
+				}
+			]
+		}
+	]
 }
