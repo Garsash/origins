@@ -2,13 +2,12 @@
     "condition": "minecraft:entity_properties",
     "entity": "this",
     "predicate": {
-      "type_specific": {
-        "type": "minecraft:player",
-        "input": {
-          "jump": true,
-          "sneak": true
-        }
-      },
+      "minecraft:type_specific/player": {
+				"input": {
+					"sneak": true,
+          "jump": true
+				}
+			},
       "nbt": "{SelectedItemSlot:8}"
     }
   }

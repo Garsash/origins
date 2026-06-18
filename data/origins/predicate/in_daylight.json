@@ -2,10 +2,6 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "type_specific": {
-      "type": "minecraft:player",
-      "advancements": {}
-    },
     "location": {
       "dimension": "minecraft:overworld",
       "can_see_sky": true
