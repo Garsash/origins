@@ -28,6 +28,6 @@ execute unless data storage bs:const log.messages[{namespaces:["bs.block"]}] run
 
 
 function bs.block:import/groups_table
-function bs.block:import/items_table
-function bs.block:import/types_table
 function bs.block:import/mapping_registry
+function bs.block:import/types_table
+function bs.block:import/items_table

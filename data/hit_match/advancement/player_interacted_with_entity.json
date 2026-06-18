@@ -7,9 +7,7 @@
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"ehm.no_uid\"]}"
-            }
+            "predicate": {"minecraft:entity_tags": {"any_of": ["ehm.no_uid"]}}
           }
         ]
       }
@@ -21,9 +19,7 @@
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"ehm.0_0\"]}"
-            }
+            "predicate": {"minecraft:entity_tags": {"any_of": ["ehm.0_0"]}}
           }
         ]
       }
@@ -35,9 +31,7 @@
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"ehm.0_1\"]}"
-            }
+            "predicate": {"minecraft:entity_tags": {"any_of": ["ehm.0_1"]}}
           }
         ]
       }
@@ -49,9 +43,7 @@
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"ehm.0_2\"]}"
-            }
+            "predicate": {"minecraft:entity_tags": {"any_of": ["ehm.0_2"]}}
           }
         ]
       }
@@ -63,9 +55,7 @@
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"ehm.1_0\"]}"
-            }
+            "predicate": {"minecraft:entity_tags": {"any_of": ["ehm.1_0"]}}
           }
         ]
       }
@@ -77,9 +67,7 @@
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"ehm.1_1\"]}"
-            }
+            "predicate": {"minecraft:entity_tags": {"any_of": ["ehm.1_1"]}}
           }
         ]
       }
@@ -91,9 +79,7 @@
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"ehm.1_2\"]}"
-            }
+            "predicate": {"minecraft:entity_tags": {"any_of": ["ehm.1_2"]}}
           }
         ]
       }
@@ -105,9 +91,7 @@
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"ehm.2_0\"]}"
-            }
+            "predicate": {"minecraft:entity_tags": {"any_of": ["ehm.2_0"]}}
           }
         ]
       }
@@ -119,9 +103,7 @@
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"ehm.2_1\"]}"
-            }
+            "predicate": {"minecraft:entity_tags": {"any_of": ["ehm.2_1"]}}
           }
         ]
       }
@@ -133,9 +115,7 @@
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"ehm.2_2\"]}"
-            }
+            "predicate": {"minecraft:entity_tags": {"any_of": ["ehm.2_2"]}}
           }
         ]
       }
@@ -147,9 +127,7 @@
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"ehm.3_0\"]}"
-            }
+            "predicate": {"minecraft:entity_tags": {"any_of": ["ehm.3_0"]}}
           }
         ]
       }
@@ -161,9 +139,7 @@
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"ehm.3_1\"]}"
-            }
+            "predicate": {"minecraft:entity_tags": {"any_of": ["ehm.3_1"]}}
           }
         ]
       }
@@ -175,9 +151,7 @@
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"ehm.3_2\"]}"
-            }
+            "predicate": {"minecraft:entity_tags": {"any_of": ["ehm.3_2"]}}
           }
         ]
       }
@@ -189,9 +163,7 @@
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"ehm.4_0\"]}"
-            }
+            "predicate": {"minecraft:entity_tags": {"any_of": ["ehm.4_0"]}}
           }
         ]
       }
@@ -203,9 +175,7 @@
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"ehm.4_1\"]}"
-            }
+            "predicate": {"minecraft:entity_tags": {"any_of": ["ehm.4_1"]}}
           }
         ]
       }
@@ -217,9 +187,7 @@
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"ehm.4_2\"]}"
-            }
+            "predicate": {"minecraft:entity_tags": {"any_of": ["ehm.4_2"]}}
           }
         ]
       }
@@ -231,9 +199,7 @@
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"ehm.5_0\"]}"
-            }
+            "predicate": {"minecraft:entity_tags": {"any_of": ["ehm.5_0"]}}
           }
         ]
       }
@@ -245,9 +211,7 @@
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"ehm.5_1\"]}"
-            }
+            "predicate": {"minecraft:entity_tags": {"any_of": ["ehm.5_1"]}}
           }
         ]
       }
@@ -259,9 +223,7 @@
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"ehm.5_2\"]}"
-            }
+            "predicate": {"minecraft:entity_tags": {"any_of": ["ehm.5_2"]}}
           }
         ]
       }
@@ -273,9 +235,7 @@
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"ehm.6_0\"]}"
-            }
+            "predicate": {"minecraft:entity_tags": {"any_of": ["ehm.6_0"]}}
           }
         ]
       }
@@ -287,9 +247,7 @@
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"ehm.6_1\"]}"
-            }
+            "predicate": {"minecraft:entity_tags": {"any_of": ["ehm.6_1"]}}
           }
         ]
       }
@@ -301,9 +259,7 @@
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"ehm.6_2\"]}"
-            }
+            "predicate": {"minecraft:entity_tags": {"any_of": ["ehm.6_2"]}}
           }
         ]
       }
@@ -315,9 +271,7 @@
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"ehm.7_0\"]}"
-            }
+            "predicate": {"minecraft:entity_tags": {"any_of": ["ehm.7_0"]}}
           }
         ]
       }
@@ -329,9 +283,7 @@
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"ehm.7_1\"]}"
-            }
+            "predicate": {"minecraft:entity_tags": {"any_of": ["ehm.7_1"]}}
           }
         ]
       }
@@ -343,9 +295,7 @@
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"ehm.7_2\"]}"
-            }
+            "predicate": {"minecraft:entity_tags": {"any_of": ["ehm.7_2"]}}
           }
         ]
       }
@@ -357,9 +307,7 @@
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"ehm.8_0\"]}"
-            }
+            "predicate": {"minecraft:entity_tags": {"any_of": ["ehm.8_0"]}}
           }
         ]
       }
@@ -371,9 +319,7 @@
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"ehm.8_1\"]}"
-            }
+            "predicate": {"minecraft:entity_tags": {"any_of": ["ehm.8_1"]}}
           }
         ]
       }
@@ -385,9 +331,7 @@
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"ehm.8_2\"]}"
-            }
+            "predicate": {"minecraft:entity_tags": {"any_of": ["ehm.8_2"]}}
           }
         ]
       }
@@ -450,6 +394,6 @@
     ]
   ],
   "rewards": {
-    "function": "hit_match:_advancement/_player_interacts_with_entity/reward/_"
+    "function": "hit_match:_advancement/_player_interacted_with_entity/reward/_"
   }
 }
