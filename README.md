@@ -8,7 +8,7 @@ The datapack is availabel at [Vanilla Origins](https://modrinth.com/datapack/van
 
 Remember the origins mod from back in 2020? This is a new datapack port of the mod and some of it's best addons with full geyser support!
 
-Upon joining the game a player is given a book which allows them to choose 1 of 17 "Origins". These origins give the player abilities which will change how they play the game going forward. For example the Merling origin removes their ability to breathe in air but instead allows them to instead breathe underwater, or the Inchling origin which shrinks them down to a measly 1/4 of a blocks height but allows them to climb walls and glide on paper.
+Upon joining the game a player is given a book which allows them to choose 1 of 17 "Origins". These origins give the player abilities which will change how they play the game going forward. For example the Merling origin removes their ability to breathe in air but instead allows them to breathe underwater, or the Inchling origin which shrinks them down to a measly 1/4 of a blocks height but allows them to climb walls and glide on paper.
 
 ## **Resource Pack**
 
