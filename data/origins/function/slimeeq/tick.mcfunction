@@ -11,6 +11,6 @@ execute if score @s origins.slimeeq.jumps matches 1.. run function origins:slime
 scoreboard players operation @s origins.sneakCheck = @s origins.sneakTime
 execute store result storage origins jump_height int 0.125 run scoreboard players get @s origins.sneakTime
 function origins:slimeeq/jump/jump with storage origins
-execute if score @s origins.health matches ..5 run function origins:slimeeq/knockback/knockback
-execute if score @s origins.health matches 6.. run function origins:slimeeq/knockback/un_knockback
+execute if score @s origins.health matches ..7 run function origins:slimeeq/knockback/knockback
+execute if score @s origins.health matches 8.. run function origins:slimeeq/knockback/un_knockback
 #say a
