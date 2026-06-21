@@ -7,4 +7,5 @@ execute if score @s origins.cooldown matches 0.. run scoreboard players remove @
 function origins:florian/photosynthesis/check_in_sun
 execute if score @s origins.effect_cooldown matches 0.. run scoreboard players remove @s origins.effect_cooldown 1
 
-execute if predicate origins:in_water run effect give @s strength 1 0
+execute if predicate origins:in_water run effect give @s strength 2 0
+execute if predicate origins:in_rain run effect give @s strength 2 0
