@@ -1,0 +1,1 @@
+execute as @a[team=Bumblebee] at @s run function origins:bumblebee/regeneration

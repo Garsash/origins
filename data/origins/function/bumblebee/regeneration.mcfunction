@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ #flowers run effect give @s regeneration 3 0
