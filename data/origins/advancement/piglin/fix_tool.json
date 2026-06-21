@@ -1,41 +1,37 @@
 {
-  "parent": "origins:reset_on_load",
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:tick",
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "team": "Piglin"
-              }
-            }
-          },
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "equipment": {
-                "mainhand": {
-                  "items": "#origins:golden_tools",
-                  "components": {
-                    "minecraft:enchantments": {
-                        "origins:piglin": 1
-                    }
-                  }
-                }
-              }
-            }
-          }
-        ]
-      }
-    }
-  },
-  "rewards": {
-    "function": "origins:piglin/fix_tool"
-  } 
+	"parent": "origins:reset_on_load",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"team": "Piglin"
+							}
+						}
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"mainhand": {
+									"items": "#origins:golden_tools"
+								}
+							},
+							"minecraft:nbt": "{SelectedItem:{components:{\"minecraft:enchantments\":{\"origins:piglin\":1}}}}"
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "origins:piglin/fix_tool"
+	}
 }

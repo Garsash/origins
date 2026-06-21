@@ -26,7 +26,8 @@
                     "minecraft:custom_data": "{Piglin:1b}"
                   }
                 }
-              }
+              },
+							"minecraft:nbt": "{SelectedItem:{components:{\"minecraft:enchantments\":{\"origins:piglin\":1}}}}"
             }
           }
         ]

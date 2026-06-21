@@ -21,14 +21,10 @@
             "predicate": {
               "equipment": {
                 "mainhand": {
-                  "items": "minecraft:crossbow",
-                  "components": {
-                    "minecraft:enchantments": {
-                        "origins:piglin": 1
-                    }
-                  }
+                  "items": "minecraft:crossbow"
                 }
-              }
+              },
+							"minecraft:nbt": "{SelectedItem:{components:{\"minecraft:enchantments\":{\"origins:piglin\":1}}}}"
             }
           }
         ]
