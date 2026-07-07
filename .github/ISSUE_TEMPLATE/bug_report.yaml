@@ -5,7 +5,6 @@ labels: ["bug", "triage"]
 projects: ["origins"]
 assignees:
   - garsash
-type: bug
 body:
   - type: markdown
     attributes:
