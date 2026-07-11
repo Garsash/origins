@@ -12,7 +12,7 @@ Upon joining the game a player is given a book which allows them to choose 1 of 
 
 ## **Resource Pack**
 
-The experience is much better with the resource pack provided in the versions screen. (It is not required on bedrock eddition)
+The experience is much better with the resource pack provided in the versions screen. (It is not required on bedrock edition)
 
 ## **Origins**
 
