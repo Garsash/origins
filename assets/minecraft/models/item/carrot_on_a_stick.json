@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/handheld_rod",
+  "textures": {
+    "layer0": "minecraft:item/carrot_on_a_stick"
+  },
+	"overrides": [
+		{ "predicate": {"custom_model_data": 1}, "model": "item/nothing"},
+		{ "predicate": {"custom_model_data": 421}, "model": "item/lightsaber_blue"},
+		{ "predicate": {"custom_model_data": 422}, "model": "item/lightsaber_green"},
+		{ "predicate": {"custom_model_data": 423}, "model": "item/lightsaber_red"},
+		{ "predicate": {"custom_model_data": 424}, "model": "item/lightsaber_yellow"},
+		{ "predicate": {"custom_model_data": 425}, "model": "item/lightsaber_purple"}
+	]
+}
