@@ -10,3 +10,4 @@ scoreboard players set @s origins.starborn.ability_3_timer 7
 effect give @s speed 1 39 true
 execute unless predicate origins:natural_invisibility run effect give @s invisibility 1 0 true
 execute unless predicate additional-origins:natural_resistance run effect give @s resistance 1 0 true
+attribute @s minecraft:air_drag_modifier modifier add origins.starborn.stun_dash.no_friction -1 add_multiplied_total
