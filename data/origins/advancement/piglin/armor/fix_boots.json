@@ -4,33 +4,36 @@
     "requirement": {
       "trigger": "minecraft:tick",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
+        "player": {
+          "type": "all_of",
+          "terms": [
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "team": "Piglin"
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "team": "Piglin"
+                "equipment": {
+                  "feet": {
+                    "items": "minecraft:golden_boots",
+                    "components": {
+                      "minecraft:custom_data": "{Piglin:1b}"
+                    }
+                  }
+                },
+                "minecraft:nbt": "{SelectedItem:{components:{\"minecraft:enchantments\":{\"origins:piglin\":1}}}}"
               }
             }
-          },
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "equipment": {
-                "feet": {
-                  "items": "minecraft:golden_boots",
-                  "components": {
-                    "minecraft:custom_data": "{Piglin:1b}"
-                  }
-                }
-              },
-							"minecraft:nbt": "{SelectedItem:{components:{\"minecraft:enchantments\":{\"origins:piglin\":1}}}}"
-            }
-          }
-        ]
+          ]
+        }
       }
     }
   },

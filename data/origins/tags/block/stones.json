@@ -6,6 +6,7 @@
       "#minecraft:stone_ore_replaceables",
       "#minecraft:deepslate_ore_replaceables",
       "#minecraft:base_stone_nether",
-      "#minecraft:nether_carver_replaceables"
+      "nether_quartz_ore",
+      "nether_gold_ore"
     ]
   }

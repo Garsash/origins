@@ -6,6 +6,10 @@
         "hit_match:load/_",
 		"gu:zzz/load",
         "player_motion:internal/technical/load",
-        "spacefont:load"
+        
+        {
+            "id": "spacefont:load",
+            "required": false
+        }
     ]
 }

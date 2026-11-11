@@ -10,10 +10,10 @@
 				}
 			]
 		}
-	],
-	"functions": [
+	], 
+	"modifier": [
 		{
-			"function": "minecraft:set_components",
+			"type": "minecraft:set_components",
 			"components": {
 				"minecraft:custom_data": {
 					"BloodQuality": "Average"
@@ -47,18 +47,16 @@
 					]
 				}
 			},
-			"conditions": [
-				{
-					"condition": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "#additional-origins:average_blood"
-					}
+			"condition": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"entity_type": "#additional-origins:average_blood"
 				}
-			]
+			}
 		},
 		{
-			"function": "minecraft:set_components",
+			"type": "minecraft:set_components",
 			"components": {
 				"minecraft:custom_data": {
 					"BloodQuality": "Excellent"
@@ -92,18 +90,16 @@
 					]
 				}
 			},
-			"conditions": [
-				{
-					"condition": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "#additional-origins:excellent_blood"
-					}
+			"condition": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"entity_type": "#additional-origins:excellent_blood"
 				}
-			]
+			}
 		},
 		{
-			"function": "minecraft:set_components",
+			"type": "minecraft:set_components",
 			"components": {
 				"minecraft:custom_data": {
 					"BloodQuality": "Explosive"
@@ -137,18 +133,16 @@
 					]
 				}
 			},
-			"conditions": [
-				{
-					"condition": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "#additional-origins:explosive_blood"
-					}
+			"condition": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"entity_type": "#additional-origins:explosive_blood"
 				}
-			]
+			}
 		},
 		{
-			"function": "minecraft:set_components",
+			"type": "minecraft:set_components",
 			"components": {
 				"minecraft:custom_data": {
 					"BloodQuality": "Magical"
@@ -193,18 +187,16 @@
 					]
 				}
 			},
-			"conditions": [
-				{
-					"condition": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "#additional-origins:magical_blood"
-					}
+			"condition": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"entity_type": "#additional-origins:magical_blood"
 				}
-			]
+			}
 		},
 		{
-			"function": "minecraft:set_components",
+			"type": "minecraft:set_components",
 			"components": {
 				"minecraft:custom_data": {
 					"BloodQuality": "Otherworldly"
@@ -243,18 +235,16 @@
 					]
 				}
 			},
-			"conditions": [
-				{
-					"condition": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "#additional-origins:otherworldly_blood"
-					}
+			"condition": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"entity_type": "#additional-origins:otherworldly_blood"
 				}
-			]
+			}
 		},
 		{
-			"function": "minecraft:set_components",
+			"type": "minecraft:set_components",
 			"components": {
 				"minecraft:custom_data": {
 					"BloodQuality": "Rotten"
@@ -294,18 +284,16 @@
 					]
 				}
 			},
-			"conditions": [
-				{
-					"condition": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "#additional-origins:rotten_blood"
-					}
+			"condition": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"entity_type": "#additional-origins:rotten_blood"
 				}
-			]
+			}
 		},
 		{
-			"function": "minecraft:set_components",
+			"type": "minecraft:set_components",
 			"components": {
 				"minecraft:custom_data": {
 					"BloodQuality": "Sizzling"
@@ -339,18 +327,16 @@
 					]
 				}
 			},
-			"conditions": [
-				{
-					"condition": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "#additional-origins:sizzling_blood"
-					}
+			"condition": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"entity_type": "#additional-origins:sizzling_blood"
 				}
-			]
+			}
 		},
 		{
-			"function": "minecraft:set_components",
+			"type": "minecraft:set_components",
 			"components": {
 				"minecraft:custom_data": {
 					"BloodQuality": "Slimey"
@@ -395,18 +381,16 @@
 					]
 				}
 			},
-			"conditions": [
-				{
-					"condition": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "#additional-origins:slimey_blood"
-					}
+			"condition": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"entity_type": "#additional-origins:slimey_blood"
 				}
-			]
+			}
 		},
 		{
-			"function": "minecraft:set_components",
+			"type": "minecraft:set_components",
 			"components": {
 				"minecraft:custom_data": {
 					"BloodQuality": "Toxic"
@@ -451,15 +435,13 @@
 					]
 				}
 			},
-			"conditions": [
-				{
-					"condition": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_type": "#additional-origins:toxic_blood"
-					}
+			"condition": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"entity_type": "#additional-origins:toxic_blood"
 				}
-			]
+			}
 		}
 	]
 }

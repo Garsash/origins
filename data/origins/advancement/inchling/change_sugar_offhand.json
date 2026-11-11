@@ -4,20 +4,18 @@
       "requirement": {
         "trigger": "minecraft:tick",
         "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "team": "Inchling",
-                "equipment": {
-                  "offhand": {
-                    "items": "minecraft:sugar"
-                  }
+          "player": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "team": "Inchling",
+              "equipment": {
+                "offhand": {
+                  "items": "minecraft:sugar"
                 }
               }
             }
-          ]
+          }
         }
       }
     },

@@ -4,7 +4,11 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "player": {
-          "team": "Vampire"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "team": "Vampire"
+          }
         },
         "item": {
           "items": "#additional-origins:not_blood"

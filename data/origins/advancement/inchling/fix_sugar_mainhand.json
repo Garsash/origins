@@ -4,29 +4,32 @@
       "requirement": {
         "trigger": "minecraft:tick",
         "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "equipment": {
-                  "mainhand": {
-                    "items": "minecraft:sugar"
+          "player": {
+            "type": "all_of",
+            "terms": [
+              {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "items": "minecraft:sugar"
+                    }
+                  }
+                }
+              },
+              {
+                "type": "minecraft:inverted",
+                "term": {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "team": "Inchling"
                   }
                 }
               }
-            },
-            {
-              "condition": "minecraft:inverted",
-              "term": {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "team": "Inchling"
-                }
-              }
-            }
-          ]
+            ]
+          }
         }
       }
     },

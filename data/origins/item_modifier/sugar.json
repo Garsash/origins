@@ -1,29 +1,30 @@
-  [
-      {
-        "function": "minecraft:set_components",
-        "components": {
-          "minecraft:food": {
-            "nutrition": 1,
-            "saturation": 4,
-            "can_always_eat": true
-          },
-          "minecraft:consumable": {
-            "consume_seconds":1.5
-          }
+{
+	"type": "minecraft:sequence",
+	"functions": [
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:food": {
+          "nutrition": 1,
+          "saturation": 4,
+          "can_always_eat": true
         },
-        "conditions": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "equipment": {
-                "mainhand": {
-                  "items": "minecraft:sugar"
-                }
-              }
+        "minecraft:consumable": {
+          "consume_seconds":1.5
+        }
+      },
+      "condition": {
+        "type": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:sugar"
             }
           }
-        ]
+        }
       }
-    ]
+    }
+  ]
+}
     

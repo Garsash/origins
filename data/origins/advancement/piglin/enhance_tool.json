@@ -4,20 +4,18 @@
     "requirement": {
       "trigger": "minecraft:tick",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "team": "Piglin",
-              "equipment": {
-                "mainhand": {
-                  "items": "#origins:golden_tools"
-                }
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "team": "Piglin",
+            "equipment": {
+              "mainhand": {
+                "items": "#origins:golden_tools"
               }
             }
           }
-        ]
+        }
       }
     }
   },

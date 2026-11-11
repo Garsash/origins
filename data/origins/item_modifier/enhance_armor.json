@@ -1,13 +1,16 @@
-[
+{
+	"type": "minecraft:sequence",
+	"functions": [
     {
-      "function": "minecraft:set_custom_data",
+      "type": "minecraft:set_custom_data",
       "tag": "{Piglin:1b}"
     },
     {
-      "function": "minecraft:set_enchantments",
+      "type": "minecraft:set_enchantments",
       "enchantments": {
         "origins:piglin": 1
       }
     }
   ]
+}
   

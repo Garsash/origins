@@ -5,7 +5,11 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "team": "Starborn"
+          "type": "entity_properties",
+          "entity":"this",
+          "predicate": {
+            "team": "Starborn"
+          }
         }
       }
     }
