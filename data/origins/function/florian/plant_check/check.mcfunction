@@ -11,6 +11,8 @@ execute if block ~ ~ ~ birch_sapling run function origins:florian/grow/birch
 execute if block ~ ~ ~ jungle_sapling run function origins:florian/grow/jungle
 execute if block ~ ~ ~ acacia_sapling run function origins:florian/grow/acacia
 execute if block ~ ~ ~ dark_oak_sapling run function origins:florian/grow/dark_oak
+execute if block ~ ~ ~ pale_oak_sapling run function origins:florian/grow/pale_oak
+execute if block ~ ~ ~ poplar_sapling run function origins:florian/grow/poplar
 execute if block ~ ~ ~ cherry_sapling run function origins:florian/grow/cherry
 execute if block ~ ~ ~ mangrove_propagule run function origins:florian/grow/mangrove
 execute if block ~ ~ ~ sugar_cane run function origins:florian/grow/sugar_cane
