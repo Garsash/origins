@@ -13,5 +13,6 @@
 # For more details, refer to the MPL v2.0.
 # ------------------------------------------------------------------------------------------------------------
 
-$execute store result storage bs:ctx _.time int $(scale) run data get storage bs:ctx _.time
+execute if block ~ ~ ~ #bs.hitbox:is_waterloggable[waterlogged=true] run return run function bs.hitbox:callback/utils/waterlogged_cube
+execute if block ~ ~ ~ #bs.hitbox:is_waterlogged run return run function bs.hitbox:callback/utils/waterlogged_cube
 return 1
