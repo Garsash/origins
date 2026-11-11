@@ -28,3 +28,5 @@ team modify Foxkin seeFriendlyInvisibles false
 team modify Slimeeq seeFriendlyInvisibles false
 team modify Piglin seeFriendlyInvisibles false
 team modify Bumblebee seeFriendlyInvisibles false
+
+team modify Feline collisionRule pushOwnTeam
