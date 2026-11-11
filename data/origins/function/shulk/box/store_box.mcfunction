@@ -1,5 +1,4 @@
-summon armor_stand 0 0 0 {Tags:["Shulk","new"],NoGravity:1b,Invisible:1b}
-execute as @p positioned 0 0 0 run scoreboard players operation @e[tag=new,limit=1,sort=nearest,type=armor_stand] origins.id = @s origins.id
-execute positioned 0 0 0 run item replace entity @e[type=armor_stand,limit=1,sort=nearest,tag=new] weapon.mainhand from entity @s container.0
-execute positioned 0 0 0 run tag @e[type=armor_stand,limit=1,sort=nearest,tag=new] remove new
+scoreboard players operation $temp_id origins.id = @s origins.id
+function origins:shulk/box/transfer_box_from_item
+execute positioned 0 -64 0 summon armor_stand run function origins:shulk/box/setup_armorstand
 kill @s

@@ -47,7 +47,7 @@ scoreboard objectives add book trigger
 scoreboard objectives add bedrock trigger
 scoreboard objectives add java trigger
 scoreboard objectives add config trigger
-scoreboard objectives add backup_shulker_box trigger
+scoreboard objectives add shulk.backup_box trigger
 
 scoreboard objectives add origins.numbers dummy
 scoreboard players set 20 origins.numbers 20

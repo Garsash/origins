@@ -15,6 +15,6 @@ execute as @a[scores={blazeborn=1..}] run function origins:select/trigger/blazeb
 execute as @a[scores={phantom=1..}] run function origins:select/trigger/phantom
 execute as @a[scores={book=1..}] run function origins:select/book
 execute as @a[scores={config=1..}] run function origins:config/player_config
-execute as @a[scores={backup_shulker_box=1..}] run function origins:shulk/box/new_box
+execute as @a[scores={shulk.backup_box=1..}] run function origins:shulk/box/new_box
 execute as @a[scores={bedrock=1..}] run function origins:select/bedrock
 execute as @a[scores={java=1..}] run function origins:select/java

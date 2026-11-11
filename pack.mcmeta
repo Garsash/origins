@@ -1,8 +1,6 @@
 {
-  "pack": {
-    "pack_format": 107,  
-    "max_format": 107,
-    "min_format": 107,
-    "description": "Vanilla Origins Pack"
-  }
+	"pack": {
+		"description": "Vanilla Origins Pack",
+		"pack_format":121
+	}
 }

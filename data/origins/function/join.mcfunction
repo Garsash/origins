@@ -3,7 +3,7 @@ tag @s add joined
 
 scoreboard players enable @a config
 scoreboard players enable @a book
-scoreboard players enable @a backup_shulker_box
+scoreboard players enable @a shulk.backup_box
 
 scoreboard players set @s origins.settings.bedrock 0
 

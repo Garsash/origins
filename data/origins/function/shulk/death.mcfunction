@@ -1,2 +1,2 @@
 scoreboard players set @s origins.shulk.deathCount 0
-execute as @e[type=item,distance=..10] if items entity @s container.0 *[minecraft:custom_data={shulk:true}] run function origins:shulk/box/store_box
+execute as @e[distance=..10,type=item] if data entity @s Item.components."minecraft:custom_data".shulk run function origins:shulk/box/store_box

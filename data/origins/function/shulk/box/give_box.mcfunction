@@ -1,2 +1,1 @@
-scoreboard players set @s origins.shulk.handleDelay 3
-execute unless items entity @s hotbar.* minecraft:shulker_box unless items entity @s inventory.* minecraft:shulker_box run give @s minecraft:shulker_box[minecraft:custom_data={shulk:1b},damage_resistant={types:"#origins:all"}]
+$give @s minecraft:shulker_box[minecraft:custom_data={shulk:1b, shulk_id:$(id)},damage_resistant={types:"#origins:all"}, custom_name={"text":"Shulk Box", "color":"dark_purple", "italic":false}]
